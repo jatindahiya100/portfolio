@@ -8,8 +8,10 @@ function App() {
   const toggleMode = () => {
     if (defaultTheme === 'light') {
       setTheme("dark");
+      document.body.classList = "bg-dark";
     } else {
       setTheme("light");
+      document.body.classList = "bg-light";
     }
 
   }
@@ -17,8 +19,8 @@ function App() {
 
   return (
     <>
-    <Navbar theme={defaultTheme} toggleMode={toggleMode} />
-    <Home/>
+      <Navbar theme={defaultTheme} toggleMode={toggleMode} />
+      <Home theme={defaultTheme} />
     </>
   );
 }
