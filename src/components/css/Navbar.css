@@ -3,9 +3,9 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
-    justify-content: space-between;
-    padding: 0 24px;
     height: 70px;
+    justify-content: space-between;
+    padding: 24px;
     border-radius: 6px 6px 0 0;
 }
 
@@ -43,6 +43,22 @@
     outline: 2px solid #6365f1c7;
 }
 
+.nav-right-items {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.expand-menu {
+    display: none;
+}
+
+ion-icon[name="menu"] {
+    height: 40px;
+    width: 40px;
+    font-size: 24px;
+}
+
 .toggle-theme-btn {
     display: inline-flex;
     align-items: center;
@@ -65,6 +81,10 @@
         border-radius: 12px;
         background-color: #ffffff;
         gap: 2rem;
+    }
+
+    .expand-menu {
+        display: inline;
     }
 
 }
