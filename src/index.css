@@ -8,6 +8,7 @@
 a {
     text-decoration: none;
 }
+
 .bg-light {
     background-color: #ffff;
     transition: 1s;
@@ -22,15 +23,17 @@ a {
     color: #ffff;
     transition: 1s;
 }
+
 .text-xtra-light {
     color: #1f2937a1;
     transition: 1s;
 }
+
 .text-dark {
     color: #1F2937;
     transition: 1s;
 }
 
 .active {
-    background-color: #111827;
+    background-color: #6366f1;
 }

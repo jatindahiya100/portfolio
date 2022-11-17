@@ -16,7 +16,7 @@
 .navbar ul li {
     text-align: center;
     list-style-type: none;
-    border-radius: 6px;
+
 }
 
 .navbar ul li a {
@@ -24,7 +24,8 @@
     align-items: center;
     justify-content: center;
     gap: 6px;
-    padding: 8px 12px;
+    padding: 8px 18px;
+    border-radius: 26px;
 }
 
 .navbar ul li a>ion-icon {
@@ -47,4 +48,10 @@
     font-size: 24px;
     border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar ul {
+        display: none;
+    }
 }
