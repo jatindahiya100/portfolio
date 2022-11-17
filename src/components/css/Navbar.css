@@ -33,10 +33,12 @@
 }
 
 .logo {
-    width: 50px;
-    height: 50px;
+    width: 44px;
+    height: 44px;
     object-fit: contain;
     border-radius: 50%;
+    border: 4px solid #6366f1;
+    outline: 2px solid #6365f1c7;
 }
 
 .toggle-theme-btn {
