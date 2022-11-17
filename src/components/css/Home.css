@@ -18,6 +18,7 @@
 .home .colm h1 {
     text-transform: capitalize;
     font-size: calc(20px + 2vw);
+    line-height: calc(30px + 2vw);
     font-weight: 800;
 }
 .home .colm h1 span {
