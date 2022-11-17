@@ -14,7 +14,7 @@ export default function Navbar(props) {
         <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Chat <ion-icon name="chatbubbles"></ion-icon></a></li>
       </ul>
 
-      <div onClick={props.toggleMode} className={`toggle-theme-btn text-${props.theme === 'light' ? 'dark' : 'light'}`}>
+      <div onClick={props.toggleMode} className={`toggle-theme-btn bg-${props.theme === 'light' ? 'dark' : 'light'} text-${props.theme === 'light' ? 'light' : 'dark'}`}>
         <ion-icon name="sunny-outline"></ion-icon>
       </div>
     </div>
