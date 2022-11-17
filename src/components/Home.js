@@ -7,8 +7,8 @@ export default function Home() {
     return (
         <div className='home'>
             <div className="colm">
-                <h1 className='text-dark'>Elegant UI/UX design beyond just putting pixels together.</h1>
-                <p className='text-xtra-light'>I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.
+                <h1 className='text-dark'>Let’s collaborate to make something incredible. <span>Just like you</span></h1>
+                <p className='text-xtra-light'>We provide integrated web design & development services. Innovative web solutions designed by experienced developers! We put the “kick” in kick-ass websites that look gorgeous no matter what device or browser visitors are using.
                 </p>
                 <div className="social-links">
                     <a className='text-dark' href="/"><ion-icon name="logo-whatsapp"></ion-icon></a>
