@@ -1,6 +1,8 @@
 .navbar {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
     justify-content: space-between;
     padding: 0 24px;
     height: 70px;
@@ -52,8 +54,17 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .navbar ul {
+        padding: 1rem;
+        z-index: 100;
+        order: 3;
+        width: 100%;
         display: none;
+        flex-direction: column;
+        border-radius: 12px;
+        background-color: #ffffff;
+        gap: 2rem;
     }
+
 }

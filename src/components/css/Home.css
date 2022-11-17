@@ -1,10 +1,9 @@
 .home {
     display: flex;
     align-items: center;
-    padding: 10% 2rem 0 2rem;
+    padding: 10% 2rem 1rem 2rem;
     gap: 4rem;
     justify-content: space-around;
-    height: max-content;
 }
 
 .home .colm {
@@ -65,7 +64,7 @@
 
 @media screen and (max-width: 600px) {
     .home {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .home .colm {
