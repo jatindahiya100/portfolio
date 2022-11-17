@@ -18,7 +18,7 @@ export default function Navbar(props) {
 
       <img className='logo' src={logo} alt="" />
 
-      <ul className="nav-menu">
+      <ul className={`nav-menu bg-${props.theme}`}>
         <li><a className={`text-${props.theme === 'light' ? 'light active' : 'light active'}`} href="/">Home <ion-icon name="home"></ion-icon></a></li>
         <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Profile <ion-icon name="ribbon"></ion-icon></a></li>
         <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Portfolio <ion-icon name="logo-react"></ion-icon></a></li>
@@ -29,7 +29,7 @@ export default function Navbar(props) {
 
       <div className='nav-right-items'>
 
-        <div onClick={toggleMenu} className="expand-menu">
+        <div onClick={toggleMenu} className={`expand-menu text-${props.theme === 'light' ? 'dark' : 'light'}`}>
           <ion-icon name="menu"></ion-icon>
         </div>
 

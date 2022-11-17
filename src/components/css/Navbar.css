@@ -79,7 +79,6 @@ ion-icon[name="menu"] {
         display: none;
         flex-direction: column;
         border-radius: 12px;
-        background-color: #ffffff;
         gap: 2rem;
     }
 
