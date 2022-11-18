@@ -1,6 +1,6 @@
 footer {
     box-sizing: border-box;
-    padding: 0 2rem 4rem 2em;
+    padding: 4rem;
     min-height: 200px;
     display: flex;
     gap: 4rem;
