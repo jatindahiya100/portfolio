@@ -1,6 +1,6 @@
 import React from 'react'
 import Template from './Template_1';
-import collab from './img/home.png'
+import collab from './img/Bookmarks-pana.svg'
 import design from './img/Dashboard-pana.svg'
 
 
