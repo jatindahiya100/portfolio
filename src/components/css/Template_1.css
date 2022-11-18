@@ -56,7 +56,7 @@
     width: 120px;
 }
 
-.home-img {
+.grid-item img {
     width: 100%;
     object-fit: cover;
     border-radius: 12px;
