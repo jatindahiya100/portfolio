@@ -7,6 +7,14 @@
     grid-row-gap: 2rem;
 }
 
+.grid:nth-child(odd) {
+    direction: rtl;
+}
+
+.grid:nth-child(odd)>.grid-item {
+    direction: ltr;
+}
+
 .grid-item {
     padding: 5%;
     display: flex;
