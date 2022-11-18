@@ -2,6 +2,7 @@ import React from 'react'
 import Template from './Template_1';
 import collab from './img/Bookmarks-pana.svg'
 import design from './img/Dashboard-pana.svg'
+import freelancer from './img/freelancer.svg'
 
 
 export default function Home(props) {
@@ -26,10 +27,22 @@ export default function Home(props) {
         btnIcon: 'rocket',
         imgSrc: design
     }
+
+    // Object For Template 1 to be passed as props
+    let myObj3 = {
+        theme: props.theme,
+        h1: '5 Star freelancer with 100% Job Success Score',
+        span: 'On Upwok',
+        description: 'Custom web design can be the difference between a mediocre website and an awesome one. If you want your website to stand out from the competition, you need a stand-out design company.',
+        btnText: 'Review Profile',
+        btnIcon: 'rocket',
+        imgSrc: freelancer
+    }
     return (
         <>
             <Template myObj={myObj1} />
             <Template myObj={myObj2} />
+            <Template myObj={myObj3} />
         </>
     )
 }
