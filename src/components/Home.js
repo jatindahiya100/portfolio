@@ -21,7 +21,7 @@ export default function Home(props) {
     // Object For Template 1 to be passed as props
     let myObj2 = {
         theme: props.theme,
-        h1: 'Elegant UI/UX design beyond just putting',
+        h1: 'Elegant UI / UX design beyond just putting',
         span: 'pixels together',
         description: 'Custom web design can be the difference between a mediocre website and an awesome one. If you want your website to stand out from the competition, you need a stand-out design company.',
         btnText: 'View Designs',
