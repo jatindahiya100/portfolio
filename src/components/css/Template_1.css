@@ -1,4 +1,5 @@
 .grid {
+    padding: 4rem 0 0 0;
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
@@ -20,7 +21,6 @@
 }
 
 .grid .grid-item h1 {
-    width: 90%;
     text-transform: capitalize;
     font-size: clamp(2.4rem, -0.875rem + 8.333vw, 3.5rem);
     font-weight: 800;
@@ -70,11 +70,7 @@
 @media screen and (max-width: 600px) {
     .grid {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        padding: 8rem 1rem 10% 1rem;
-    }
-
-    .grid .grid-item h1 {
-        width: 100%;
+        
     }
 }
 
