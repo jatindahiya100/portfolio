@@ -5,35 +5,16 @@ import React, { useState } from 'react';
 import Home from './Home';
 
 function App() {
-  var theme;
-
-  if (typeof Storage !== "undefined") {
-    // Yes! localStorage and sessionStorage support!
-    if (localStorage.getItem("defaultTheme") !== null) {
-      theme = localStorage.getItem("defaultTheme");
-    } else {
-      theme = 'light';
-    }
+  if (localStorage.getItem('defaultTheme') === null) {
+    localStorage.setItem('defaultTheme', 'light');
   }
-  else {
-    console.log("// Sorry! No web storage support..");
-  }
-  const [defaultTheme, setTheme] = useState(theme);
-  localStorage.setItem("defaultTheme", defaultTheme);
 
-  window.addEventListener("load", function () {
-    if (localStorage.getItem("defaultTheme") === 'light') {
-      setTheme("light");
-      document.body.classList = "bg-light";
-    } else {
-      setTheme("dark");
-      document.body.classList = "bg-dark";
-    }
-  });
+  const [defaultTheme, setTheme] = useState(localStorage.getItem('defaultTheme'));
+  localStorage.setItem('defaultTheme', defaultTheme);
 
   // Dark Mode / Light Mode Function
-  const toggleMode = () => {
-    if (localStorage.getItem("defaultTheme") === 'light') {
+  const toogleTheme = () => {
+    if (defaultTheme === 'light') {
       setTheme("dark");
       document.body.classList = "bg-dark";
     } else {
@@ -44,7 +25,7 @@ function App() {
 
   return (
     <>
-      <Navbar theme={defaultTheme} toggleMode={toggleMode} />
+      <Navbar theme={defaultTheme} toogleTheme={toogleTheme} />
       <Home theme={defaultTheme} />
 
     </>
