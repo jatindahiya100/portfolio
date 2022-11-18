@@ -5,25 +5,35 @@ import React, { useState } from 'react';
 import Home from './Home';
 
 function App() {
+  var theme;
 
-  const detectCurrentTheme = () => {
-    var setTheme;
-    const theme = () => window.matchMedia("(prefers-color-scheme: dark)").matches;
-    if (theme === false) {
-      setTheme = 'dark'
+  if (typeof Storage !== "undefined") {
+    // Yes! localStorage and sessionStorage support!
+    if (localStorage.getItem("defaultTheme") !== null) {
+      theme = localStorage.getItem("defaultTheme");
     } else {
-      setTheme = 'light';
+      theme = 'light';
     }
-    return setTheme;
   }
+  else {
+    console.log("// Sorry! No web storage support..");
+  }
+  const [defaultTheme, setTheme] = useState(theme);
+  localStorage.setItem("defaultTheme", defaultTheme);
 
+  window.addEventListener("load", function () {
+    if (localStorage.getItem("defaultTheme") === 'light') {
+      setTheme("light");
+      document.body.classList = "bg-light";
+    } else {
+      setTheme("dark");
+      document.body.classList = "bg-dark";
+    }
+  });
 
-
-  var detectTheme = detectCurrentTheme();
-  const [defaultTheme, setTheme] = useState(detectTheme);
   // Dark Mode / Light Mode Function
   const toggleMode = () => {
-    if (defaultTheme === 'light') {
+    if (localStorage.getItem("defaultTheme") === 'light') {
       setTheme("dark");
       document.body.classList = "bg-dark";
     } else {
