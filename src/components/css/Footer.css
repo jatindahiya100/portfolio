@@ -1,6 +1,6 @@
 footer {
     box-sizing: border-box;
-    padding: 2rem;
+    padding: 0 2rem 4rem 2em;
     min-height: 200px;
     display: flex;
     gap: 4rem;
@@ -13,17 +13,19 @@ footer ul {
     width: 300px;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 1.6rem;
 }
 
-footer ul li {    
+footer ul li {
     list-style-type: none;
 }
+
 footer ul li a {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 footer label {
     font-weight: 700;
     color: #407BFF;
