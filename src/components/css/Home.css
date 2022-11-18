@@ -1,9 +1,10 @@
 .home {
-    display: flex;
+    min-height: 100vh;
     align-items: center;
-    padding: 8% 2rem 1rem 2rem;
+    display: flex;
     gap: 4rem;
-    justify-content: space-around;
+    padding: 0 2rem;
+    justify-content: space-evenly;
 }
 
 .home .colm {
@@ -20,9 +21,11 @@
     line-height: calc(30px + 2vw);
     font-weight: 800;
 }
+
 .home .colm h1 span {
     color: #595bdf;
 }
+
 .home .colm p {
     line-height: 1.8rem;
 }
@@ -56,15 +59,13 @@
 
 .home-img {
     width: 100%;
-    max-height: 400px;
     object-fit: cover;
     border-radius: 12px;
-    transform: rotate(4deg);
 }
 
 @media screen and (max-width: 600px) {
     .home {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .home .colm {
