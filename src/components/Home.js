@@ -12,16 +12,18 @@ export default function Home(props) {
         span: 'Just like you',
         description: 'We provide integrated web design & development services. Innovative web solutions designed by experienced developers! We put the “kick” in kick-ass websites that look gorgeous no matter what device or browser visitors are using.',
         btnText: 'Work With Me',
+        btnIcon: 'shield-checkmark',
         imgSrc: collab
     }
 
     // Object For Template 1 to be passed as props
     let myObj2 = {
         theme: props.theme,
-        h1: 'Elegant UI/UX design beyond just putting pixels together',
-        span: '',
+        h1: 'Elegant UI/UX design beyond just putting',
+        span: 'pixels together',
         description: 'Custom web design can be the difference between a mediocre website and an awesome one. If you want your website to stand out from the competition, you need a stand-out design company.',
         btnText: 'View Designs',
+        btnIcon: 'rocket',
         imgSrc: design
     }
     return (

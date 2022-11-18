@@ -15,7 +15,7 @@ export default function Template_1(props) {
                     <a className={`text-${props.myObj.theme === 'light' ? 'dark' : 'light'}`} href="/"><ion-icon name="logo-github"></ion-icon></a>
                     <a className={`text-${props.myObj.theme === 'light' ? 'dark' : 'light'}`} href="/"><ion-icon name="logo-google"></ion-icon></a>
                 </div>
-                <button>{props.myObj.btnText} <ion-icon name="shield-checkmark"></ion-icon></button>
+                <button>{props.myObj.btnText} <ion-icon name={props.myObj.btnIcon}></ion-icon></button>
             </div>
             <div className='grid-item'>
                 <img src={props.myObj.imgSrc} alt="" />
