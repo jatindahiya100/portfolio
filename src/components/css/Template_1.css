@@ -15,8 +15,8 @@
 
 .grid .grid-item h1 {
     text-transform: capitalize;
-    font-size: calc(20px + 2vw);
-    line-height: calc(30px + 2vw);
+    font-size: 6vh;
+    line-height: 7vh;
     font-weight: 800;
 }
 
