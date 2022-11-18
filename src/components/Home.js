@@ -1,7 +1,7 @@
 import React from 'react'
 import Template from './Template_1';
-import collab from './img/collab.svg'
-import design from './img/design.svg'
+import collab from './img/home.png'
+import design from './img/Dashboard-pana.svg'
 
 
 export default function Home(props) {
