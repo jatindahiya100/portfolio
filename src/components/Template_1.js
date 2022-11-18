@@ -3,6 +3,9 @@ import './css/Template_1.css'
 
 
 export default function Template_1(props) {
+    const handleClick = () => {
+        window.open(props.myObj.linkTo);
+      };
     return (
         <div className={`grid bg-${props.myObj.theme}`}>
             <div className='grid-item'>
@@ -15,7 +18,7 @@ export default function Template_1(props) {
                     <a className={`text-${props.myObj.theme === 'light' ? 'dark' : 'light'}`} href="/"><ion-icon name="logo-github"></ion-icon></a>
                     <a className={`text-${props.myObj.theme === 'light' ? 'dark' : 'light'}`} href="/"><ion-icon name="logo-google"></ion-icon></a>
                 </div>
-                <button>{props.myObj.btnText} <ion-icon name={props.myObj.btnIcon}></ion-icon></button>
+                <button onClick={handleClick}>{props.myObj.btnText} <ion-icon name={props.myObj.btnIcon}></ion-icon></button>
             </div>
             <div className='grid-item'>
                 <img src={props.myObj.imgSrc} alt="" />

@@ -14,6 +14,7 @@ export default function Home(props) {
         description: 'I provide integrated web design & development services. Innovative web solutions designed by experienced developers! I put the “kick” in kick-ass websites that look gorgeous no matter what device or browser visitors are using.',
         btnText: 'Hire Me',
         btnIcon: 'shield-checkmark',
+        linkTo: 'https://www.upwork.com/workwith/jatindahiya',
         imgSrc: collab
     }
 
@@ -36,6 +37,7 @@ export default function Home(props) {
         description: 'Custom web design can be the difference between a mediocre website and an awesome one. If you want your website to stand out from the competition, you need a stand-out design company.',
         btnText: 'Upwork Profile',
         btnIcon: 'star',
+        linkTo: 'https://www.upwork.com/freelancers/~012d6eb926a1f7a86a',
         imgSrc: freelancer
     }
     return (
