@@ -1,8 +1,8 @@
 import '../components/css/App.css';
 import Navbar from './Navbar';
 import React, { useState } from 'react';
-
 import Home from './Home';
+import Footer from './Footer';
 
 function App() {
   if (localStorage.getItem('defaultTheme') === null) {
@@ -27,6 +27,7 @@ function App() {
     <>
       <Navbar theme={defaultTheme} toogleTheme={toogleTheme} />
       <Home theme={defaultTheme} />
+      <Footer theme={defaultTheme}/>
 
     </>
   );

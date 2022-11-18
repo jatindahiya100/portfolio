@@ -1,0 +1,30 @@
+footer {
+    box-sizing: border-box;
+    padding: 4rem;
+    min-height: 200px;
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer ul {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+footer ul li {    
+    list-style-type: none;
+}
+footer ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer label {
+    font-weight: 700;
+    color: #407BFF;
+}
