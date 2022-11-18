@@ -1,16 +1,33 @@
 import React from 'react'
 import Template from './Template_1';
+import collab from './img/collab.svg'
+import design from './img/design.svg'
+
 
 export default function Home(props) {
     // Object For Template 1 to be passed as props
-    let myObj = {
+    let myObj1 = {
         theme: props.theme,
         h1: 'Let’s collaborate to make something incredible.',
         span: 'Just like you',
         description: 'We provide integrated web design & development services. Innovative web solutions designed by experienced developers! We put the “kick” in kick-ass websites that look gorgeous no matter what device or browser visitors are using.',
-        btnText: 'Work With Me'
+        btnText: 'Work With Me',
+        imgSrc: collab
+    }
+
+    // Object For Template 1 to be passed as props
+    let myObj2 = {
+        theme: props.theme,
+        h1: 'Elegant UI/UX design beyond just putting pixels together',
+        span: '',
+        description: 'Custom web design can be the difference between a mediocre website and an awesome one. If you want your website to stand out from the competition, you need a stand-out design company.',
+        btnText: 'View Designs',
+        imgSrc: design
     }
     return (
-        <Template myObj={myObj} />
+        <>
+            <Template myObj={myObj1} />
+            <Template myObj={myObj2} />
+        </>
     )
 }

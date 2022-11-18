@@ -1,6 +1,5 @@
 import React from 'react'
 import './css/Template_1.css'
-import collab from './img/collab.svg'
 
 
 export default function Template_1(props) {
@@ -19,7 +18,7 @@ export default function Template_1(props) {
                 <button>{props.myObj.btnText} <ion-icon name="shield-checkmark"></ion-icon></button>
             </div>
             <div className='grid-item'>
-                <img src={collab} alt="" />
+                <img src={props.myObj.imgSrc} alt="" />
             </div>
         </div>
     )
