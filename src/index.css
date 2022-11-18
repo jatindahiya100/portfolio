@@ -2,18 +2,22 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
     scroll-behavior: smooth;
 }
-body,html {
+
+body,
+html {
     max-width: 1440px;
     margin: 0 auto;
 }
+
 a {
     text-decoration: none;
 }
 
 .bg-light {
-    background-color: #ffff;
+    background-color: rgb(255, 255, 255);
     transition: 1s;
 }
 
@@ -23,7 +27,7 @@ a {
 }
 
 .text-light {
-    color: #ffff;
+    color: rgba(255, 255, 255, 0.911);
     transition: 1s;
 }
 
@@ -31,10 +35,12 @@ a {
     color: #1f2937a1;
     transition: 1s;
 }
+
 .text-xtra-dark {
     color: #dddddda1;
     transition: 1s;
 }
+
 .text-dark {
     color: #1F2937;
     transition: 1s;

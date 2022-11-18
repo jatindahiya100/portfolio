@@ -10,8 +10,8 @@ export default function Home(props) {
         theme: props.theme,
         h1: 'Let’s collaborate to make something incredible.',
         span: 'Just like you',
-        description: 'We provide integrated web design & development services. Innovative web solutions designed by experienced developers! We put the “kick” in kick-ass websites that look gorgeous no matter what device or browser visitors are using.',
-        btnText: 'Work With Me',
+        description: 'I provide integrated web design & development services. Innovative web solutions designed by experienced developers! I put the “kick” in kick-ass websites that look gorgeous no matter what device or browser visitors are using.',
+        btnText: 'Hire Me',
         btnIcon: 'shield-checkmark',
         imgSrc: collab
     }
