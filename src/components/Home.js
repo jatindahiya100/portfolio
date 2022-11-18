@@ -34,8 +34,8 @@ export default function Home(props) {
         h1: '5 Star freelancer with 100% Job Success Score',
         span: 'On Upwok',
         description: 'Custom web design can be the difference between a mediocre website and an awesome one. If you want your website to stand out from the competition, you need a stand-out design company.',
-        btnText: 'Review Profile',
-        btnIcon: 'rocket',
+        btnText: 'Upwork Profile',
+        btnIcon: 'star',
         imgSrc: freelancer
     }
     return (

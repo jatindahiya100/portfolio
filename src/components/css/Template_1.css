@@ -2,7 +2,7 @@
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-    min-height: calc(100vh - 80px);
+    min-height: 100vh;
 }
 
 .grid:nth-child(odd) {
@@ -23,7 +23,7 @@
 .grid .grid-item h1 {
     text-transform: capitalize;
     font-size: 6vh;
-    line-height: 7vh;
+    line-height: 8vh;
     font-weight: 800;
 }
 
@@ -65,9 +65,8 @@
 }
 
 .grid-item img {
+    padding: 5%;
     width: 100%;
-    object-fit: cover;
-    border-radius: 12px;
 }
 
 @media screen and (max-width: 600px) {
