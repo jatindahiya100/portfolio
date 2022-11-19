@@ -33,8 +33,8 @@ export default function Navbar(props) {
           <ion-icon name="menu"></ion-icon>
         </div>
 
-        <div onClick={props.toogleTheme} className={`toggle-theme-btn bg-${props.theme === 'light' ? 'dark' : 'light'} text-${props.theme === 'light' ? 'light' : 'dark'}`}>
-          <ion-icon name="sunny-outline"></ion-icon>
+        <div onClick={props.toogleTheme} className={`toggle-theme-btn text-${props.theme === 'light' ? 'light' : 'yellow rotation' } bg-${props.theme === 'light' ? 'dark' : 'dark'}`}>
+          <ion-icon name={props.theme === 'light' ? 'moon' : 'sunny-outline'}></ion-icon>
         </div>
 
       </div>

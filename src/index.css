@@ -30,6 +30,10 @@ a {
     color: rgba(255, 255, 255, 0.911);
     transition: 1s;
 }
+.text-yellow {
+    color: rgb(255, 235, 53);
+    transition: 1s;
+}
 
 .text-xtra-light {
     color: #1f2937a1;
