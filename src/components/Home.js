@@ -10,7 +10,7 @@ export default function Home(props) {
     // Object For Resume Template to be passed as props
     let resumeObj = {
         theme: props.theme,
-        h1: 'I’m Jatin Dahiya. I live in New York City, where I',
+        h1: 'I’m Jatin Dahiya. I live in Sonipat City, where I',
         span: 'design the future.',
         description: 'I’ve loved making things for as long as I can remember, and wrote my first program when I was 6 years old, just two weeks after my mom brought home the brand new Macintosh LC 550 that I taught myself to type on.',
         btnText: 'Download Resume',

@@ -4,6 +4,12 @@ import "./css/Navbar.css"
 
 export default function Navbar(props) {
 
+  const handleClick = (event) => {
+    event.preventDefault();
+   
+
+  }
+
   const toggleMenu = () => {
     var menu = document.getElementsByClassName("nav-menu")[0];
     if (menu.style.display === "none" || menu.style.display === "") {
@@ -19,10 +25,10 @@ export default function Navbar(props) {
       <img className='logo' src={logo} alt="" />
 
       <ul className={`nav-menu bg-${props.theme}`}>
-        <li><a className={`text-${props.theme === 'light' ? 'light active' : 'light active'}`} href="/">Home <ion-icon name="home"></ion-icon></a></li>
-        <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Hire Me <ion-icon name="ribbon"></ion-icon></a></li>
-        <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Work <ion-icon name="logo-react"></ion-icon></a></li>
-        <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Chat <ion-icon name="chatbubbles"></ion-icon></a></li>
+        <li><a onClick={handleClick} className={`text-${props.theme === 'light' ? 'light' : 'light'} active`} href="/">Home <ion-icon name="home"></ion-icon></a></li>
+        <li><a onClick={handleClick} className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Hire Me <ion-icon name="ribbon"></ion-icon></a></li>
+        <li><a onClick={handleClick} className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Work <ion-icon name="logo-react"></ion-icon></a></li>
+        <li><a onClick={handleClick} className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Chat <ion-icon name="chatbubbles"></ion-icon></a></li>
       </ul>
 
 
@@ -33,7 +39,7 @@ export default function Navbar(props) {
           <ion-icon name="menu"></ion-icon>
         </div>
 
-        <div onClick={props.toogleTheme} className={`toggle-theme-btn text-${props.theme === 'light' ? 'light' : 'yellow rotation' } bg-${props.theme === 'light' ? 'dark' : 'dark'}`}>
+        <div onClick={props.toogleTheme} className={`toggle-theme-btn text-${props.theme === 'light' ? 'light' : 'yellow rotation'} bg-${props.theme === 'light' ? 'dark' : 'dark'}`}>
           <ion-icon name={props.theme === 'light' ? 'moon' : 'sunny-outline'}></ion-icon>
         </div>
 
