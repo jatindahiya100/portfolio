@@ -28,7 +28,6 @@ function App() {
       <Navbar theme={defaultTheme} toogleTheme={toogleTheme} />
       <Home theme={defaultTheme} />
       <Footer theme={defaultTheme}/>
-
     </>
   );
 }
