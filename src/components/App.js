@@ -6,7 +6,7 @@ import Footer from './Footer';
 
 function App() {
   if (localStorage.getItem('defaultTheme') === null) {
-    localStorage.setItem('defaultTheme', 'light');
+    localStorage.setItem('defaultTheme', 'dark');
   }
 
   const [defaultTheme, setTheme] = useState(localStorage.getItem('defaultTheme'));

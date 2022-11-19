@@ -4,6 +4,7 @@ import collab from './img/Bookmarks-pana.svg'
 import design from './img/Dashboard-pana.svg'
 import freelancer from './img/freelancer.svg'
 import ResumePhoto from './img/portrait.webp'
+import resume from './img/resume.pdf';
 
 
 export default function Home(props) {
@@ -12,9 +13,10 @@ export default function Home(props) {
         theme: props.theme,
         h1: 'I’m Jatin Dahiya. I live in Sonipat City, where I',
         span: 'design the future.',
-        description: 'I’ve loved making things for as long as I can remember, and wrote my first program when I was 6 years old, just two weeks after my mom brought home the brand new Macintosh LC 550 that I taught myself to type on.',
+        description: 'I’ve loved making things for as long as I can remember, and wrote my first program when I was 12 years old, just two weeks after my father brought home the brand new DELL Latitude | E5410 that I taught myself to type on.',
         btnText: 'Download Resume',
         btnIcon: 'rocket',
+        linkTo: resume,
         imgSrc: ResumePhoto
     }
 
