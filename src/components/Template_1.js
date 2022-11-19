@@ -5,7 +5,7 @@ import './css/Template_1.css'
 export default function Template_1(props) {
     const handleClick = () => {
         window.open(props.myObj.linkTo);
-      };
+    };
     return (
         <div className={`grid bg-${props.myObj.theme}`}>
             <div className='grid-item'>

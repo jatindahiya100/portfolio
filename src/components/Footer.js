@@ -7,7 +7,7 @@ export default function Footer(props) {
       <ul>
         <label htmlFor="footer-title">Quick Links</label>
         <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Home <ion-icon name="home"></ion-icon></a></li>
-        <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Resume <ion-icon name="ribbon"></ion-icon></a></li>
+        <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Hire Me <ion-icon name="ribbon"></ion-icon></a></li>
         <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Work <ion-icon name="logo-react"></ion-icon></a></li>
         <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Contact <ion-icon name="chatbubbles"></ion-icon></a></li>
       </ul>

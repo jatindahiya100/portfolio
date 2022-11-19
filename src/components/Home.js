@@ -3,11 +3,23 @@ import Template from './Template_1';
 import collab from './img/Bookmarks-pana.svg'
 import design from './img/Dashboard-pana.svg'
 import freelancer from './img/freelancer.svg'
+import ResumePhoto from './img/portrait.webp'
 
 
 export default function Home(props) {
-    // Object For Template 1 to be passed as props
-    let myObj1 = {
+    // Object For Resume Template to be passed as props
+    let resumeObj = {
+        theme: props.theme,
+        h1: 'I’m Jatin Dahiya. I live in New York City, where I',
+        span: 'design the future.',
+        description: 'I’ve loved making things for as long as I can remember, and wrote my first program when I was 6 years old, just two weeks after my mom brought home the brand new Macintosh LC 550 that I taught myself to type on.',
+        btnText: 'Download Resume',
+        btnIcon: 'rocket',
+        imgSrc: ResumePhoto
+    }
+
+    // Object For Home Template  to be passed as props
+    let homeObj = {
         theme: props.theme,
         h1: 'Let’s collaborate to make something incredible.',
         span: 'Just like you',
@@ -18,8 +30,8 @@ export default function Home(props) {
         imgSrc: collab
     }
 
-    // Object For Template 1 to be passed as props
-    let myObj2 = {
+    // Object For Work Template to be passed as props
+    let workObj = {
         theme: props.theme,
         h1: 'Elegant UI / UX design beyond just putting',
         span: 'pixels together',
@@ -29,8 +41,8 @@ export default function Home(props) {
         imgSrc: design
     }
 
-    // Object For Template 1 to be passed as props
-    let myObj3 = {
+    // Object For Freelancer Template to be passed as props
+    let freelancerObj = {
         theme: props.theme,
         h1: '5 Star freelancer with 100% Job Success Score',
         span: 'On Upwok',
@@ -42,9 +54,10 @@ export default function Home(props) {
     }
     return (
         <>
-            <Template myObj={myObj1} />
-            <Template myObj={myObj2} />
-            <Template myObj={myObj3} />
+            <Template myObj={resumeObj} />
+            <Template myObj={homeObj} />
+            <Template myObj={workObj} />
+            <Template myObj={freelancerObj} />
         </>
     )
 }
