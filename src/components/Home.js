@@ -1,6 +1,5 @@
 import React from 'react'
-import Template from './Template_1'
-import Resume from  './Resume'
+import Template from './Template_1';
 import collab from './img/Bookmarks-pana.svg'
 import design from './img/Dashboard-pana.svg'
 import freelancer from './img/freelancer.svg'
@@ -45,7 +44,6 @@ export default function Home(props) {
         <>
             <Template myObj={myObj1} />
             <Template myObj={myObj2} />
-            <Resume/>
             <Template myObj={myObj3} />
         </>
     )
