@@ -5,6 +5,8 @@ import ResumePhoto from './img/portrait.webp'
 import Rainfire from './img/Rainfire.png'
 import Backlinks from './img/Backlinks-Tracker.png'
 import JPLewis from './img/JP-Lewis-Group.png'
+import pizzaBook from './img/PizzaBook-Home.png'
+
 import resume from './img/resume.pdf';
 
 export default function Work(props) {
@@ -48,8 +50,8 @@ export default function Work(props) {
     description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using , making it look like readable English',
     btnText: 'Source Code',
     btnIcon: 'logo-github',
-    linkTo: resume,
-    imgSrc: ResumePhoto
+    linkTo: 'https://github.com/jatindahiya100/pizzaBook',
+    imgSrc: pizzaBook
   }
   let appointmentwaleObj = {
     theme: props.theme,
@@ -58,7 +60,7 @@ export default function Work(props) {
     description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using , making it look like readable English',
     btnText: 'Source Code',
     btnIcon: 'logo-github',
-    linkTo: resume,
+    linkTo: 'https://github.com/jatindahiya100/appointment',
     imgSrc: ResumePhoto
   }
   
