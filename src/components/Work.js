@@ -10,7 +10,7 @@ export default function Work(props) {
   let rainfireObj = {
     theme: props.theme,
     h1: '1). Rainfire.in',
-    span: '',
+    span: 'Online Store',
     description: '',
     btnText: 'View',
     btnIcon: 'rocket',
@@ -20,7 +20,7 @@ export default function Work(props) {
   let jpLewisGroupObj = {
     theme: props.theme,
     h1: '2). JP LEWIS GROUP, LLC',
-    span: '',
+    span: 'Landing Page',
     description: '',
     btnText: 'View',
     btnIcon: 'rocket',
@@ -30,18 +30,18 @@ export default function Work(props) {
   let backlinksObj = {
     theme: props.theme,
     h1: '3). Backlinks Tracker',
-    span: '',
+    span: 'Tool',
     description: '',
     btnText: 'View',
     btnIcon: 'rocket',
-    linkTo: resume,
+    linkTo: 'https://jatindahiya100.github.io/backlinks-tracker/',
     imgSrc: ResumePhoto
   }
 
   let pizzabookObj = {
     theme: props.theme,
     h1: '4). PizzaBook',
-    span: '',
+    span: '-A Food Order Web App',
     description: '',
     btnText: 'View',
     btnIcon: 'rocket',
@@ -51,7 +51,7 @@ export default function Work(props) {
   let appointmentwaleObj = {
     theme: props.theme,
     h1: '5). AppointmentWale',
-    span: '',
+    span: 'Booking System',
     description: '',
     btnText: 'View',
     btnIcon: 'rocket',
