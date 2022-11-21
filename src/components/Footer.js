@@ -1,14 +1,16 @@
 import React from 'react'
 import './css/Footer.css'
+import { Link } from "react-router-dom"
+
 
 export default function Footer(props) {
   return (
     <footer className={`bg-${props.theme}`}>
       <ul>
         <label htmlFor="footer-title">Quick Links</label>
-        <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Home <ion-icon name="home"></ion-icon></a></li>
-        <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Hire Me <ion-icon name="ribbon"></ion-icon></a></li>
-        <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Work <ion-icon name="logo-react"></ion-icon></a></li>
+        <li><Link className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/portfolio-react.js">Home <ion-icon name="home"></ion-icon></Link></li>
+        <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="https://www.upwork.com/workwith/jatindahiya">Hire Me <ion-icon name="ribbon"></ion-icon></a></li>
+        <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/work">Work <ion-icon name="logo-react"></ion-icon></a></li>
         <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Contact <ion-icon name="chatbubbles"></ion-icon></a></li>
       </ul>
 
@@ -25,7 +27,7 @@ export default function Footer(props) {
         <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="https://github.com/jatindahiya100?tab=repositories" target="_blank">Github <ion-icon name="logo-github"></ion-icon></a></li>
         <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="https://www.linkedin.com/in/jatin-dahiya-325b93200/" target="_blank">Linkedin <ion-icon name="logo-linkedin"></ion-icon></a></li>
         {/* <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Whatsapp <ion-icon name="logo-whatsapp"></ion-icon></a></li> */}
-        {/* <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Email <ion-icon name="logo-google"></ion-icon></a></li> */}
+        <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="mailto:jatindahiya100@gmail.com">Email <ion-icon name="logo-google"></ion-icon></a></li>
       </ul>
     </footer>
   )
