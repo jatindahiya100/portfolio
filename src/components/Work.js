@@ -2,6 +2,9 @@ import React from 'react'
 import Template from './Template_1';
 import './css/Work.css'
 import ResumePhoto from './img/portrait.webp'
+import Rainfire from './img/Rainfire.png'
+import Backlinks from './img/Backlinks-Tracker.png'
+import JPLewis from './img/JP-Lewis-Group.png'
 import resume from './img/resume.pdf';
 
 export default function Work(props) {
@@ -12,30 +15,30 @@ export default function Work(props) {
     h1: '1). Rainfire.in',
     span: 'Online Store',
     description: '',
-    btnText: 'View',
-    btnIcon: 'rocket',
+    btnText: 'Visit Site',
+    btnIcon: 'link',
     linkTo: 'http://rainfire.in/',
-    imgSrc: ResumePhoto
+    imgSrc: Rainfire
   }
   let jpLewisGroupObj = {
     theme: props.theme,
     h1: '2). JP LEWIS GROUP, LLC',
     span: 'Landing Page',
     description: '',
-    btnText: 'View',
-    btnIcon: 'rocket',
+    btnText: 'Visit Site',
+    btnIcon: 'link',
     linkTo: 'https://jplewisgroup.com/',
-    imgSrc: ResumePhoto
+    imgSrc: JPLewis
   }
   let backlinksObj = {
     theme: props.theme,
     h1: '3). Backlinks Tracker',
     span: 'Tool',
     description: '',
-    btnText: 'View',
-    btnIcon: 'rocket',
+    btnText: 'Visit Site',
+    btnIcon: 'link',
     linkTo: 'https://jatindahiya100.github.io/backlinks-tracker/',
-    imgSrc: ResumePhoto
+    imgSrc: Backlinks
   }
 
   let pizzabookObj = {
@@ -43,8 +46,8 @@ export default function Work(props) {
     h1: '4). PizzaBook',
     span: '-A Food Order Web App',
     description: '',
-    btnText: 'View',
-    btnIcon: 'rocket',
+    btnText: 'Source Code',
+    btnIcon: 'logo-github',
     linkTo: resume,
     imgSrc: ResumePhoto
   }
@@ -53,8 +56,8 @@ export default function Work(props) {
     h1: '5). AppointmentWale',
     span: 'Booking System',
     description: '',
-    btnText: 'View',
-    btnIcon: 'rocket',
+    btnText: 'Source Code',
+    btnIcon: 'logo-github',
     linkTo: resume,
     imgSrc: ResumePhoto
   }
