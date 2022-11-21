@@ -26,7 +26,7 @@ export default function Home(props) {
         h1: 'Let’s collaborate to make something incredible.',
         span: 'Just like you',
         description: 'I provide integrated web design & development services. Innovative web solutions designed by experienced developers! I put the “kick” in kick-ass websites that look gorgeous no matter what device or browser visitors are using.',
-        btnText: 'Hire Me',
+        btnText: 'See Work',
         btnIcon: 'shield-checkmark',
         linkTo: 'https://www.upwork.com/workwith/jatindahiya',
         imgSrc: collab
