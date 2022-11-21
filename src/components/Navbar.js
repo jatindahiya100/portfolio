@@ -20,7 +20,7 @@ export default function Navbar(props) {
       <img className='logo' src={logo} alt="" />
 
       <ul className={`nav-menu bg-${props.theme}`}>
-        <li><Link className={`text-${props.theme === 'light' ? 'light' : 'light'} active`} to="/">Home <ion-icon name="home"></ion-icon></Link></li>
+        <li><Link className={`text-${props.theme === 'light' ? 'light' : 'light'} active`} to="/portfolio-react.js">Home <ion-icon name="home"></ion-icon></Link></li>
         <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Hire Me <ion-icon name="ribbon"></ion-icon></a></li>
         <li><Link className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/work">Work <ion-icon name="logo-react"></ion-icon></Link></li>
         <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Chat <ion-icon name="chatbubbles"></ion-icon></a></li>
