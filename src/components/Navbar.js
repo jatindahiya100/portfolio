@@ -17,7 +17,7 @@ export default function Navbar(props) {
   return (
     <div className={`navbar bg-${props.theme}`}>
 
-      <img className='logo' src={logo} alt="" />
+      <Link to="/portfolio-react.js"><img className='logo' src={logo} alt="" /></Link>
 
       <ul className={`nav-menu bg-${props.theme}`}>
         <li><Link className={`text-${props.theme === 'light' ? 'light' : 'light'} active`} to="/portfolio-react.js">Home <ion-icon name="home"></ion-icon></Link></li>
