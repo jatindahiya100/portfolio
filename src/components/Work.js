@@ -6,6 +6,7 @@ import Rainfire from './img/Rainfire.png'
 import Backlinks from './img/Backlinks-Tracker.png'
 import JPLewis from './img/JP-Lewis-Group.png'
 import pizzaBook from './img/PizzaBook-Home.png'
+import Appointmentwale from './img/Appointmentwale.png'
 
 export default function Work(props) {
 
@@ -59,7 +60,7 @@ export default function Work(props) {
     btnText: 'Source Code',
     btnIcon: 'logo-github',
     linkTo: 'https://github.com/jatindahiya100/appointment',
-    imgSrc: ResumePhoto
+    imgSrc: Appointmentwale
   }
   
   
