@@ -34,7 +34,7 @@ function App() {
       <Navbar theme={defaultTheme} toogleTheme={toogleTheme} />
       <Routes>
         <Route path='/' element={<Home theme={defaultTheme} />} />
-        <Route path='/work' element={<Work />} />
+        <Route path='/work' element={<Work theme={defaultTheme} />} />
       </Routes>
       <Footer theme={defaultTheme} />
     </Router>
