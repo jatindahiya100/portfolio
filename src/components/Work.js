@@ -7,8 +7,6 @@ import Backlinks from './img/Backlinks-Tracker.png'
 import JPLewis from './img/JP-Lewis-Group.png'
 import pizzaBook from './img/PizzaBook-Home.png'
 
-import resume from './img/resume.pdf';
-
 export default function Work(props) {
 
   // Object For Resume Template to be passed as props
