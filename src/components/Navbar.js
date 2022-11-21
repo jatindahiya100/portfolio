@@ -1,14 +1,9 @@
 import React from 'react'
-import logo from "./img/jatindahiya.png";
+import logo from "./img/jatindahiya.png"
 import "./css/Navbar.css"
+import { Link } from "react-router-dom"
 
 export default function Navbar(props) {
-
-  const handleClick = (event) => {
-    event.preventDefault();
-   
-
-  }
 
   const toggleMenu = () => {
     var menu = document.getElementsByClassName("nav-menu")[0];
@@ -25,10 +20,10 @@ export default function Navbar(props) {
       <img className='logo' src={logo} alt="" />
 
       <ul className={`nav-menu bg-${props.theme}`}>
-        <li><a onClick={handleClick} className={`text-${props.theme === 'light' ? 'light' : 'light'} active`} href="/">Home <ion-icon name="home"></ion-icon></a></li>
-        <li><a onClick={handleClick} className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Hire Me <ion-icon name="ribbon"></ion-icon></a></li>
-        <li><a onClick={handleClick} className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Work <ion-icon name="logo-react"></ion-icon></a></li>
-        <li><a onClick={handleClick} className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Chat <ion-icon name="chatbubbles"></ion-icon></a></li>
+        <li><Link className={`text-${props.theme === 'light' ? 'light' : 'light'} active`} to="/">Home <ion-icon name="home"></ion-icon></Link></li>
+        <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Hire Me <ion-icon name="ribbon"></ion-icon></a></li>
+        <li><Link className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/work">Work <ion-icon name="logo-react"></ion-icon></Link></li>
+        <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Chat <ion-icon name="chatbubbles"></ion-icon></a></li>
       </ul>
 
 
