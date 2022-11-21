@@ -25,6 +25,7 @@ export default function Work(props) {
     h1: '2). JP LEWIS GROUP, LLC',
     span: 'Landing Page',
     description: '',
+    btnText: 'Visit Site',
     btnIcon: 'link',
     linkTo: 'https://jplewisgroup.com/',
     imgSrc: JPLewis
@@ -34,6 +35,7 @@ export default function Work(props) {
     h1: '3). Backlinks Tracker',
     span: 'Tool',
     description: '',
+    btnText: 'Visit Site',
     btnIcon: 'link',
     linkTo: 'https://jatindahiya100.github.io/backlinks-tracker/',
     imgSrc: Backlinks
