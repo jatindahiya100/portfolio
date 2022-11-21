@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-react.js/static/css/main.e5518ffd.css",
-    "main.js": "/portfolio-react.js/static/js/main.a4c9bcdd.js",
+    "main.js": "/portfolio-react.js/static/js/main.f0df33e2.js",
     "static/js/787.febf3f28.chunk.js": "/portfolio-react.js/static/js/787.febf3f28.chunk.js",
     "static/media/Rainfire.png": "/portfolio-react.js/static/media/Rainfire.3fb7bc6ecd10d69f867b.png",
     "static/media/JP-Lewis-Group.png": "/portfolio-react.js/static/media/JP-Lewis-Group.de8a0ce5022c9724bd10.png",
@@ -10,17 +10,17 @@
     "static/media/Backlinks-Tracker.png": "/portfolio-react.js/static/media/Backlinks-Tracker.ca4cde93c14d254df138.png",
     "static/media/jatindahiya.png": "/portfolio-react.js/static/media/jatindahiya.3a904a38764a7870f116.png",
     "static/media/Dashboard-pana.svg": "/portfolio-react.js/static/media/Dashboard-pana.619952cf7d4a57675756d6e146090e8e.svg",
-    "static/media/resume.pdf": "/portfolio-react.js/static/media/resume.77d784954a06840c5efb.pdf",
     "static/media/Bookmarks-pana.svg": "/portfolio-react.js/static/media/Bookmarks-pana.d00349e938eb3604c11746940bcdedfe.svg",
     "static/media/freelancer.svg": "/portfolio-react.js/static/media/freelancer.c735e6877ecc33d3f04de839339f6473.svg",
+    "static/media/resume.pdf": "/portfolio-react.js/static/media/resume.9f52a76a913da4b28f4e.pdf",
     "static/media/portrait.webp": "/portfolio-react.js/static/media/portrait.275fdd6906e076146a48.webp",
     "index.html": "/portfolio-react.js/index.html",
     "main.e5518ffd.css.map": "/portfolio-react.js/static/css/main.e5518ffd.css.map",
-    "main.a4c9bcdd.js.map": "/portfolio-react.js/static/js/main.a4c9bcdd.js.map",
+    "main.f0df33e2.js.map": "/portfolio-react.js/static/js/main.f0df33e2.js.map",
     "787.febf3f28.chunk.js.map": "/portfolio-react.js/static/js/787.febf3f28.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5518ffd.css",
-    "static/js/main.a4c9bcdd.js"
+    "static/js/main.f0df33e2.js"
   ]
 }
