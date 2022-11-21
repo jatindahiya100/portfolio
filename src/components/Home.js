@@ -14,9 +14,9 @@ export default function Home(props) {
         h1: 'I’m Jatin Dahiya. I live in Sonipat City, where I',
         span: 'design the future.',
         description: 'I’ve loved making things for as long as I can remember, and wrote my first program when I was 12 years old, just two weeks after my father brought home the brand new DELL Latitude | E5410 that I taught myself to type on.',
-        btnText: 'Download Resume',
+        btnText: 'Explore',
         btnIcon: 'rocket',
-        linkTo: resume,
+        // linkTo: resume,
         imgSrc: ResumePhoto
     }
 
