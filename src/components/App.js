@@ -17,6 +17,11 @@ function App() {
 
   const [defaultTheme, setTheme] = useState(localStorage.getItem('defaultTheme'));
   localStorage.setItem('defaultTheme', defaultTheme);
+  if (defaultTheme === 'dark') {
+    document.body.classList = "bg-dark";
+  } else {
+    document.body.classList = "bg-light";
+  }
 
   // Dark Mode / Light Mode Function
   const toogleTheme = () => {
