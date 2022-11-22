@@ -16,10 +16,10 @@ export default function Footer(props) {
 
       <ul>
         <label htmlFor="footer-title">Services</label>
-        <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">UI Mockups<ion-icon name="planet"></ion-icon></a></li>
-        <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Web Design & Development <ion-icon name="code-slash"></ion-icon></a></li>
-        <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Web Hosting <ion-icon name="cloud-done"></ion-icon></a></li>
-        <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="/">Consultancy <ion-icon name="analytics"></ion-icon></a></li>
+        <li><Link className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/portfolio-react.js">UI Mockups<ion-icon name="planet"></ion-icon></Link></li>
+        <li><Link className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/portfolio-react.js">Web Design & Development <ion-icon name="code-slash"></ion-icon></Link></li>
+        <li><Link className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/portfolio-react.js">Web Hosting <ion-icon name="cloud-done"></ion-icon></Link></li>
+        <li><Link className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/portfolio-react.js">Consultancy <ion-icon name="analytics"></ion-icon></Link></li>
       </ul>
 
       <ul>
