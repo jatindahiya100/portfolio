@@ -60,7 +60,7 @@ export default function Work(props) {
     description: 'Client Name: Faizy Jamal. Location: United States (Richmond). Project Summary: Designed and Developed a user-friendly, responsive and eye astounding custom dashboard for his website',
     btnText: 'Source Code',
     btnIcon: 'logo-github',
-    linkTo: 'https://github.com/jatindahiya100/appointment',
+    linkTo: 'https://github.com/jatindahiya100/faizy',
     imgSrc: customDashboardUI
   }
 
