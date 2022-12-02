@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio-react.js/static/css/main.be7b72bb.css",
-    "main.js": "/portfolio-react.js/static/js/main.a5dc0128.js",
+    "main.js": "/portfolio-react.js/static/js/main.56b69620.js",
     "static/js/787.febf3f28.chunk.js": "/portfolio-react.js/static/js/787.febf3f28.chunk.js",
     "static/media/Rainfire.png": "/portfolio-react.js/static/media/Rainfire.3fb7bc6ecd10d69f867b.png",
     "static/media/JP-Lewis-Group.png": "/portfolio-react.js/static/media/JP-Lewis-Group.de8a0ce5022c9724bd10.png",
     "static/media/customDashboardUI.png": "/portfolio-react.js/static/media/customDashboardUI.2198ec8cb5f761d49669.png",
+    "static/media/Alternative-Healthline.png": "/portfolio-react.js/static/media/Alternative-Healthline.96ba1d06eee50c2d3a39.png",
     "static/media/PizzaBook-Home.png": "/portfolio-react.js/static/media/PizzaBook-Home.8651c6aac744d3966508.png",
     "static/media/Appointmentwale.png": "/portfolio-react.js/static/media/Appointmentwale.34b7e76db91d79c806e3.png",
     "static/media/Backlinks-Tracker.png": "/portfolio-react.js/static/media/Backlinks-Tracker.ca4cde93c14d254df138.png",
@@ -17,11 +18,11 @@
     "static/media/portrait.webp": "/portfolio-react.js/static/media/portrait.275fdd6906e076146a48.webp",
     "index.html": "/portfolio-react.js/index.html",
     "main.be7b72bb.css.map": "/portfolio-react.js/static/css/main.be7b72bb.css.map",
-    "main.a5dc0128.js.map": "/portfolio-react.js/static/js/main.a5dc0128.js.map",
+    "main.56b69620.js.map": "/portfolio-react.js/static/js/main.56b69620.js.map",
     "787.febf3f28.chunk.js.map": "/portfolio-react.js/static/js/787.febf3f28.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be7b72bb.css",
-    "static/js/main.a5dc0128.js"
+    "static/js/main.56b69620.js"
   ]
 }
