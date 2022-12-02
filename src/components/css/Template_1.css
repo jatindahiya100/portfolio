@@ -17,12 +17,12 @@
     padding: 10%;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .grid .grid-item h1 {
     text-transform: capitalize;
-    font-size: clamp(2.4rem, -0.875rem + 8.333vw, 3.5rem);
+    font-size: clamp(2.4rem, -0.875rem + 4vw, 3.5rem);
     font-weight: 800;
 }
 
@@ -71,7 +71,7 @@
 @media screen and (max-width: 600px) {
     .grid {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        
+
     }
 }
 
