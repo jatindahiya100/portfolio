@@ -7,6 +7,7 @@ import JPLewis from './img/JP-Lewis-Group.png'
 import pizzaBook from './img/PizzaBook-Home.png'
 import customDashboardUI from './img/customDashboardUI.png'
 import Appointmentwale from './img/Appointmentwale.png'
+import Alternativehealthline from './img/Alternative-Healthline.png'
 
 export default function Work(props) {
 
@@ -75,6 +76,17 @@ export default function Work(props) {
     imgSrc: Appointmentwale
   }
 
+  let alternativehealthline = {
+    theme: props.theme,
+    h1: '7). Wordpress',
+    span: 'Health Blog',
+    description: 'www.alternativehealthline.com is a wordpress health blog designed, developed, hosted and maintained by me',
+    btnText: 'Visit Site',
+    btnIcon: 'link',
+    linkTo: 'https://alternativehealthline.com/',
+    imgSrc: Alternativehealthline 
+  }
+
 
 
 
@@ -86,6 +98,7 @@ export default function Work(props) {
       <Template myObj={pizzabookObj} />
       <Template myObj={customDahboardObj} />
       <Template myObj={appointmentwaleObj} />
+      <Template myObj={alternativehealthline} />
     </>
   )
 }
