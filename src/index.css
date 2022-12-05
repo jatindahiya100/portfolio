@@ -52,6 +52,7 @@ a {
 }
 
 .active {
+    color: white;
     background-color: #407BFF;
 }
 /* Scroll Bar */
