@@ -5,6 +5,8 @@ footer {
     align-items: center;
     grid-gap: 6rem;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    font-size: clamp(0.8rem, 1vw, 1.8rem);
+
 }
 
 footer ul {
