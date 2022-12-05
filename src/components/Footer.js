@@ -26,7 +26,6 @@ export default function Footer(props) {
         <label htmlFor="footer-title">Social Links</label>
         <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="https://github.com/jatindahiya100?tab=repositories" rel="noreferrer">Github <ion-icon name="logo-github"></ion-icon></a></li>
         <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="https://www.linkedin.com/in/jatin-dahiya-325b93200/" rel="noreferrer">Linkedin <ion-icon name="logo-linkedin"></ion-icon></a></li>
-        <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="https://wa.me/919485901109?text=[Hello Jatin, I Want to connect with you. This message is sent through your website link]">Instagram <ion-icon name="logo-instagram"></ion-icon></a></li>
         <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="https://www.upwork.com/freelancers/~012d6eb926a1f7a86a">Upwork<ion-icon name="logo-paypal"></ion-icon></a></li>
 
       </ul>
