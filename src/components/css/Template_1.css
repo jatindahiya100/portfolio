@@ -55,13 +55,13 @@
     display: flex;
     align-items: center;
     gap: 18px;
-    font-size: 24px;
 }
 
-.social-links a:hover>ion-icon {
-    transform: scale(1.2);
-    transition: 0.4s ease-in-out;
-    color: #407BFF;
+.social-links a {
+    border: 2px solid black;
+    padding: 0.6em 1em;
+    border-radius: 50px;
+    font-size: clamp(0.8rem, 1vw, 1.8rem);
 }
 
 .grid-item img {

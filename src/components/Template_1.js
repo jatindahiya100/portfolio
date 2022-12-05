@@ -1,5 +1,6 @@
 import React from 'react'
 import './css/Template_1.css'
+import { Link } from "react-router-dom"
 
 
 export default function Template_1(props) {
@@ -13,10 +14,12 @@ export default function Template_1(props) {
                 <p className={`text-xtra-${props.myObj.theme === 'light' ? 'light' : 'dark'}`}>{props.myObj.description}
                 </p>
                 <div className="social-links">
-                    <a className={`text-${props.myObj.theme === 'light' ? 'dark' : 'light'}`} href="/"><ion-icon name="logo-whatsapp"></ion-icon></a>
-                    <a className={`text-${props.myObj.theme === 'light' ? 'dark' : 'light'}`} href="/"><ion-icon name="logo-linkedin"></ion-icon></a>
-                    <a className={`text-${props.myObj.theme === 'light' ? 'dark' : 'light'}`} href="/"><ion-icon name="logo-github"></ion-icon></a>
-                    <a className={`text-${props.myObj.theme === 'light' ? 'dark' : 'light'}`} href="/"><ion-icon name="logo-google"></ion-icon></a>
+                    {
+                        props.myObj.skills.map((skills,i) => {
+                            return <Link className={`text-${props.myObj.theme === 'light' ? 'dark' : 'light'}`} key={i}>{skills}</Link>
+                        })
+                    }
+
                 </div>
                 <button onClick={handleClick}>{props.myObj.btnText} <ion-icon name={props.myObj.btnIcon}></ion-icon></button>
             </div>
