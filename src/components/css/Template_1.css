@@ -53,15 +53,22 @@
 
 .social-links {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 18px;
 }
 
 .social-links a {
+    display: flex;
+    align-items: center;
     border: 2px solid black;
     padding: 0.6em 1em;
     border-radius: 50px;
     font-size: clamp(0.8rem, 1vw, 1.8rem);
+}
+
+.social-links a:hover {
+    background-color: aliceblue;
 }
 
 .grid-item img {
