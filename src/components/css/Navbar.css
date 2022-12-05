@@ -9,7 +9,7 @@
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: space-between;
-    padding: 1.1em;
+    padding:clamp(1.1em, 1vw, 2em);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
