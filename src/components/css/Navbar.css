@@ -9,7 +9,7 @@
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: space-between;
-    padding: 8px 16px;
+    padding: 1.1em;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
@@ -32,10 +32,8 @@
     gap: 6px;
     padding: 8px 18px;
     border-radius: 26px;
-}
+    font-size: clamp(0.8rem, 1vw, 1.8rem);
 
-.navbar ul li a>ion-icon {
-    font-size: 18px;
 }
 
 .logo {
@@ -73,17 +71,20 @@ ion-icon[name="menu"] {
     border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
 .rotation {
     animation: rotation 10s infinite linear;
 }
+
 @keyframes rotation {
     from {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
+
     to {
-      transform: rotate(359deg);
+        transform: rotate(359deg);
     }
-  }
+}
 
 @media screen and (max-width: 800px) {
     .navbar ul {

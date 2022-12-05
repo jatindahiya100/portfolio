@@ -2,7 +2,7 @@
     padding: 4rem 0 0 0;
     display: grid;
     align-items: center;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
 }
 
 .grid:nth-child(odd) {
@@ -22,7 +22,7 @@
 
 .grid .grid-item h1 {
     text-transform: capitalize;
-    font-size: clamp(2.4rem, -0.875rem + 4vw, 3.5rem);
+    font-size: clamp(2rem, 3.4vw, 4.6rem);
     font-weight: 800;
 }
 
@@ -31,7 +31,8 @@
 }
 
 .grid .grid-item p {
-    line-height: 1.8rem;
+    font-size: clamp(0.8rem, 1vw, 1.8rem);
+    line-height: clamp(1.8rem, 2vw, 2.8rem);
 }
 
 .grid .grid-item button {
@@ -64,7 +65,9 @@
 }
 
 .grid-item img {
-    width: 100%;
+    margin: 0 auto;
+    max-width: 90%;
+    object-fit: contain;
     border-radius: 6px;
 }
 

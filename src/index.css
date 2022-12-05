@@ -9,7 +9,7 @@
 
 body,
 html {
-    max-width: 1440px;
+    max-width: 2800px;
     margin: 0 auto;
 }
 
@@ -31,6 +31,7 @@ a {
     color: rgba(255, 255, 255, 0.911);
     transition: 1s;
 }
+
 .text-yellow {
     color: rgb(255, 235, 53);
     transition: 1s;
@@ -55,25 +56,26 @@ a {
     color: white;
     background-color: #407BFF;
 }
+
 /* Scroll Bar */
 /* width */
 ::-webkit-scrollbar {
     width: 8px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888; 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
     border-radius: 16px;
 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
