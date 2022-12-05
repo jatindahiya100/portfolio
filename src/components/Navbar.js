@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from "./img/jatindahiya.png"
 import "./css/Navbar.css"
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 
 export default function Navbar(props) {
 
@@ -14,22 +14,14 @@ export default function Navbar(props) {
     }
   }
 
-  const handleClick = (e) => {
-    const nav_links = document.querySelectorAll(".navbar .nav-menu li a");
-    for (let index = 0; index < nav_links.length; index++) {
-      nav_links[index].classList.remove("active");
-    }
-    e.target.classList.add("active");
-  }
-
   return (
     <div className={`navbar bg-${props.theme}`}>
 
       <Link to="/portfolio-react.js"><img className='logo' src={logo} alt="" /></Link>
 
       <ul className={`nav-menu bg-${props.theme}`}>
-        <li><Link onClick={handleClick} className={`text-${props.theme === 'light' ? 'dark' : 'light'} active`} to="/portfolio-react.js">Home <ion-icon name="home"></ion-icon></Link></li>
-        <li><Link onClick={handleClick} className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/work">Work <ion-icon name="logo-react"></ion-icon></Link></li>
+        <li><NavLink className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/portfolio-react.js">Home <ion-icon name="home"></ion-icon></NavLink></li>
+        <li><NavLink className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/work">Work <ion-icon name="logo-react"></ion-icon></NavLink></li>
         <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="https://www.upwork.com/workwith/jatindahiya">Hire Me <ion-icon name="ribbon"></ion-icon></a></li>
         {/* <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="tel:+919485901109">Contact <ion-icon name="call"></ion-icon></a></li> */}
       </ul>
