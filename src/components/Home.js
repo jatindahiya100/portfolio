@@ -1,9 +1,9 @@
 import React from 'react'
 import Template from './Template_1';
-import collab from './img/Bookmarks-pana.svg'
-import design from './img/Dashboard-pana.svg'
-import freelancer from './img/freelancer.svg'
-import ResumePhoto from './img/portrait.webp'
+import ResumePhoto from './img/1.svg'
+import collab from './img/2.svg'
+import design from './img/3.svg'
+import freelancer from './img/4.svg'
 import resume from './img/resume.pdf';
 
 
