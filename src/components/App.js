@@ -12,7 +12,7 @@ import {
 
 function App() {
   if (localStorage.getItem('defaultTheme') === null) {
-    localStorage.setItem('defaultTheme', 'dark');
+    localStorage.setItem('defaultTheme', 'light');
   }
 
   const [defaultTheme, setTheme] = useState(localStorage.getItem('defaultTheme'));
