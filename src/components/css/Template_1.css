@@ -3,6 +3,7 @@
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    overflow: hidden;
 }
 
 .grid:nth-child(odd) {
