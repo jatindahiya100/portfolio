@@ -27,7 +27,7 @@ export default function Template_1(props) {
                 </div>
                 <button onClick={handleClick}>{props.myObj.btnText} <ion-icon name={props.myObj.btnIcon}></ion-icon></button>
             </div>
-            <div data-aos="flip-left" data-aos-anchor-placement="bottom-bottom" className='grid-item'>
+            <div className='grid-item'>
                 <img src={props.myObj.imgSrc} alt="" />
             </div>
         </div>
