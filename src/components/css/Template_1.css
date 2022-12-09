@@ -18,7 +18,6 @@
     padding: 10%;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
 }
 
 .grid .grid-item h1 {
