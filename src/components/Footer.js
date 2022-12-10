@@ -6,6 +6,13 @@ import { Link } from "react-router-dom"
 export default function Footer(props) {
   return (
     <footer className={`bg-${props.theme}`}>
+      <div className="newsletter">
+        <h2>Drop your email. We'll get in touch!</h2>
+        <div>
+        <input type="email" placeholder='Email Address' />
+        <button>Subscribe</button>
+        </div>
+      </div>
       <ul>
         <label htmlFor="footer-title">Quick Links</label>
         <li><Link className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/portfolio-react.js">Home <ion-icon name="home"></ion-icon></Link></li>

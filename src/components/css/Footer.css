@@ -2,10 +2,45 @@ footer {
     padding: 4rem;
     box-sizing: border-box;
     display: grid;
-    align-items: center;
     grid-gap: 6rem;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     font-size: clamp(0.8rem, 1vw, 1.8rem);
+}
+
+footer .newsletter {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    background: #263238;
+    border-radius: 1em;
+    color: white;
+}
+
+footer .newsletter>div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+footer .newsletter>div input {
+    background: rgba(161, 161, 161, 0.171);
+    padding: 0.6em 1em;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    border-radius: 60px;
+    color: white;
+}
+
+footer .newsletter>div button {
+    color: white;
+    background-color: #407BFF;
+    padding: 0.6em 1em;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    border-radius: 60px;
 }
 
 footer ul {
