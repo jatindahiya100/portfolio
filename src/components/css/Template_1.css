@@ -75,7 +75,7 @@
 
 .grid-item img {
     margin: 0 auto;
-    max-width: 90%;
+    width: 100%;
     object-fit: contain;
     border-radius: 6px;
 }
