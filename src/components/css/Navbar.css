@@ -56,9 +56,9 @@
 }
 
 ion-icon[name="menu"],ion-icon[name="close-circle-outline"] {
-    height: 40px;
-    width: 40px;
-    font-size: 24px;
+    width: clamp(2rem, 3vw, 4rem);
+    height:clamp(2rem, 3vw, 4rem);
+    font-size: clamp(1.4rem, 2vw, 3rem);
 }
 
 .toggle-theme-btn {
