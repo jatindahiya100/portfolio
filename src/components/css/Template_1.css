@@ -4,7 +4,6 @@
     align-items: center;
     grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
     overflow: hidden;
-    min-height: 100vh;
 }
 
 .grid:nth-child(odd) {
