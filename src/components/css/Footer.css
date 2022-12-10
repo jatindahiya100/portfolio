@@ -19,7 +19,7 @@ footer .newsletter {
 
 footer .newsletter>div {
     display: flex;
-    flex-flow: row nowrap;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
