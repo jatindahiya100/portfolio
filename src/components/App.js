@@ -10,6 +10,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   if (localStorage.getItem('defaultTheme') === null) {
@@ -37,6 +38,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <Navbar theme={defaultTheme} toogleTheme={toogleTheme} />
       <Routes>
         <Route path='/portfolio-react.js' element={<Home theme={defaultTheme} />} />
