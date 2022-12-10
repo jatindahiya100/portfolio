@@ -21,7 +21,6 @@ footer .newsletter>div {
     display: flex;
     gap: 1em;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 footer .newsletter>div input {
@@ -31,6 +30,7 @@ footer .newsletter>div input {
     border: none;
     font-weight: 600;
     border-radius: 60px;
+    font-size: larger;
     color: white;
 }
 
@@ -38,6 +38,7 @@ footer .newsletter>div button {
     color: white;
     background-color: #407BFF;
     padding: 0.6em 1em;
+    font-size: larger;
     outline: none;
     border: none;
     font-weight: 600;
