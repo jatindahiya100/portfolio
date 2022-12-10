@@ -1,7 +1,6 @@
 import React from 'react'
 import Template from './Template_1';
-import hireme_light from './img/hireme-light.gif'
-import hireme_dark from './img/hireme-dark.gif'
+import launch from './img/launch-amico.svg'
 
 
 
@@ -15,7 +14,7 @@ export default function Hire(props) {
         btnText: 'Hire Me On Upwork',
         btnIcon: 'link',
         linkTo: 'https://www.upwork.com/freelancers/~012d6eb926a1f7a86a',
-        imgSrc: props.theme === 'light' ? hireme_light : hireme_dark
+        imgSrc: launch
     }
     return (
         <Template myObj={hireObj} />
