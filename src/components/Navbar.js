@@ -24,7 +24,7 @@ export default function Navbar(props) {
 
       <Link to="/portfolio-react.js"><img className='logo' src={logo} alt="" /></Link>
 
-      <ul className={`nav-menu bg-${props.theme}`}>
+      <ul className="nav-menu">
         <li><NavLink className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/portfolio-react.js">Home <ion-icon name="home"></ion-icon></NavLink></li>
         <li><NavLink className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/work">Work <ion-icon name="logo-react"></ion-icon></NavLink></li>
         <li><NavLink className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/hire">Hire Me <ion-icon name="ribbon"></ion-icon></NavLink></li>
