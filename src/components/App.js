@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import React, { useState } from 'react';
 import Home from './Home';
 import Work from './Work';
+import Hire from './Hire';
 import Footer from './Footer';
 import {
   BrowserRouter as Router,
@@ -40,10 +41,12 @@ function App() {
       <Routes>
         <Route path='/portfolio-react.js' element={<Home theme={defaultTheme} />} />
         <Route path='/work' element={<Work theme={defaultTheme} />} />
+        <Route path='/hire' element={<Hire theme={defaultTheme} />} />
       </Routes>
       <Footer theme={defaultTheme} />
     </Router>
   );
 }
+// https://www.upwork.com/workwith/jatindahiya
 
 export default App;
