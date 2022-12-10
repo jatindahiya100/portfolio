@@ -67,6 +67,6 @@ footer label {
 
 @media screen and (max-width: 800px) {
     footer {
-        padding: 1rem;
+        padding: 1.6rem;
     }
 }
