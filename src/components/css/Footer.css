@@ -1,5 +1,5 @@
 footer {
-    padding: 4rem;
+    padding: 4rem 4rem 1.4rem 4rem;
     box-sizing: border-box;
     display: grid;
     grid-gap: 3rem;
@@ -63,6 +63,16 @@ footer ul li a {
 footer label {
     font-weight: 700;
     color: #407BFF;
+}
+
+.copyright {
+    /* background: #263238; */
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: smaller;
+    font-family: inherit;
 }
 
 @media screen and (max-width: 800px) {
