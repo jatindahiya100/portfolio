@@ -1,6 +1,5 @@
 import React from 'react'
 import Template from './Template_1';
-import './css/Work.css'
 import Rainfire from './img/Rainfire.png'
 import Backlinks from './img/Backlinks-Tracker.png'
 import JPLewis from './img/JP-Lewis-Group.png'

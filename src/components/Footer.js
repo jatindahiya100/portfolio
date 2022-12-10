@@ -15,14 +15,6 @@ export default function Footer(props) {
       </ul>
 
       <ul>
-        <label htmlFor="footer-title">Services</label>
-        <li><Link className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/portfolio-react.js">UI Mockups<ion-icon name="planet"></ion-icon></Link></li>
-        <li><Link className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/portfolio-react.js">Web Design & Development <ion-icon name="code-slash"></ion-icon></Link></li>
-        <li><Link className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/portfolio-react.js">Web Hosting <ion-icon name="cloud-done"></ion-icon></Link></li>
-        <li><Link className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/portfolio-react.js">Consultancy <ion-icon name="analytics"></ion-icon></Link></li>
-      </ul>
-
-      <ul>
         <label htmlFor="footer-title">Social Links</label>
         <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="https://github.com/jatindahiya100?tab=repositories" rel="noreferrer">Github <ion-icon name="logo-github"></ion-icon></a></li>
         <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="https://www.linkedin.com/in/jatin-dahiya-325b93200/" rel="noreferrer">Linkedin <ion-icon name="logo-linkedin"></ion-icon></a></li>

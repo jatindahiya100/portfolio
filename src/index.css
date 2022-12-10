@@ -9,8 +9,7 @@
 
 body,
 html {
-    max-width: 2800px;
-    margin: 0 auto;
+    height: 100%;
 }
 
 a {
