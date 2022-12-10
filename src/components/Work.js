@@ -20,7 +20,8 @@ export default function Work(props) {
     btnText: 'Visit Site',
     btnIcon: 'link',
     linkTo: 'http://rainfire.in/',
-    imgSrc: Rainfire
+    imgSrc: Rainfire,
+    figcaption: "MacBook Pro"
   }
   let jpLewisGroupObj = {
     theme: props.theme,

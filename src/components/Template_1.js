@@ -24,7 +24,10 @@ export default function Template_1(props) {
                 <button  onClick={handleClick}>{props.myObj.btnText} <ion-icon name={props.myObj.btnIcon}></ion-icon></button>
             </div>
             <div className='grid-item'>
+                <figure>
                 <img   src={props.myObj.imgSrc} alt="" />
+                <figcaption className={`text-xtra-${props.myObj.theme === 'light' ? 'light' : 'dark'}`}>{props.myObj.figcaption}</figcaption>
+                </figure>
             </div>
         </div>
     )

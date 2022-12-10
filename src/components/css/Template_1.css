@@ -72,8 +72,13 @@
     background-color: #407BFF;
     color: aliceblue;
 }
-
-.grid-item img {
+.grid-item figcaption {
+    text-align: center;
+    font-weight: 300;
+    padding-top: 0.25em;
+    font-size: clamp(0.8rem, 1vw, 1.8rem);
+}
+.grid-item figure img {
     margin: 0 auto;
     width: 100%;
     object-fit: contain;
