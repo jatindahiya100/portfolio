@@ -2,7 +2,7 @@ footer {
     padding: 4rem;
     box-sizing: border-box;
     display: grid;
-    grid-gap: 6rem;
+    grid-gap: 3rem;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     font-size: clamp(0.8rem, 1vw, 1.8rem);
 }
