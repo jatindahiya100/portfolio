@@ -55,7 +55,7 @@
     display: none;
 }
 
-ion-icon[name="menu"] {
+ion-icon[name="menu"],ion-icon[name="close-circle-outline"] {
     height: 40px;
     width: 40px;
     font-size: 24px;
@@ -88,6 +88,7 @@ ion-icon[name="menu"] {
 
 @media screen and (max-width: 800px) {
     .navbar ul {
+        min-height: 100vh;
         padding: 1rem;
         order: 3;
         width: 100%;

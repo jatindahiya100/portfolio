@@ -1,16 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from "./img/jatindahiya.png"
 import "./css/Navbar.css"
 import { Link, NavLink } from "react-router-dom"
 
 export default function Navbar(props) {
 
+  const [openMenu, closeMenu] = useState("menu");
+
+
   const toggleMenu = () => {
     var menu = document.getElementsByClassName("nav-menu")[0];
     if (menu.style.display === "none" || menu.style.display === "") {
+      closeMenu("close-circle-outline")
       menu.style.display = "inline-flex";
     } else {
       menu.style.display = "none";
+      closeMenu("menu")
     }
   }
 
@@ -31,7 +36,7 @@ export default function Navbar(props) {
       <div className='nav-right-items'>
 
         <div onClick={toggleMenu} className={`expand-menu text-${props.theme === 'light' ? 'dark' : 'light'}`}>
-          <ion-icon name="menu"></ion-icon>
+          <ion-icon name={`${openMenu}`}></ion-icon>
         </div>
 
         <div onClick={props.toogleTheme} className={`toggle-theme-btn text-${props.theme === 'light' ? 'light' : 'yellow rotation'} bg-${props.theme === 'light' ? 'dark' : 'dark'}`}>
