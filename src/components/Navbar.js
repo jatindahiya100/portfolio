@@ -9,6 +9,7 @@ export default function Navbar(props) {
     if (window.innerWidth >= 800) {
       var menu = document.querySelector(".navbar ul");
       menu.className = "nav-menu";
+      setMobileMenuState(false);
     }
   })
 
