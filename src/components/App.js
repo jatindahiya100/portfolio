@@ -5,7 +5,7 @@ import Work from './Work';
 import Hire from './Hire';
 import Footer from './Footer';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
@@ -40,7 +40,7 @@ function App() {
       <ScrollToTop />
       <Navbar theme={defaultTheme} toogleTheme={toogleTheme} />
       <Routes>
-        <Route path='/portfolio-react.js' element={<Home theme={defaultTheme} />} />
+        <Route path='/' element={<Home theme={defaultTheme} />} />
         <Route path='/work' element={<Work theme={defaultTheme} />} />
         <Route path='/hire' element={<Hire theme={defaultTheme} />} />
       </Routes>
