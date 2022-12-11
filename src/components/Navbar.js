@@ -5,17 +5,24 @@ import { Link, NavLink } from "react-router-dom"
 
 export default function Navbar(props) {
 
-  const [openMenu, closeMenu] = useState("menu");
+  window.addEventListener("resize", function () {
+    if (window.innerWidth >= 800) {
+      var menu = document.querySelector(".navbar ul");
+      menu.className = "nav-menu";
+    }
+  })
+
+  const [mobileMenuState, setMobileMenuState] = useState(false);
 
 
   const toggleMenu = () => {
-    var menu = document.getElementsByClassName("nav-menu")[0];
-    if (menu.style.display === "none" || menu.style.display === "") {
-      closeMenu("close-circle-outline")
-      menu.style.display = "inline-flex";
+    var menu = document.querySelector(".navbar ul");
+    if (menu.className === "nav-menu") {
+      menu.className = "mobile-menu"
+      setMobileMenuState(true);
     } else {
-      menu.style.display = "none";
-      closeMenu("menu")
+      menu.className = "nav-menu";
+      setMobileMenuState(false);
     }
   }
 
@@ -36,7 +43,7 @@ export default function Navbar(props) {
       <div className='nav-right-items'>
 
         <div onClick={toggleMenu} className={`expand-menu text-${props.theme === 'light' ? 'dark' : 'light'}`}>
-          <ion-icon name={`${openMenu}`}></ion-icon>
+          <ion-icon name={`${mobileMenuState === false ? "menu" : "close-circle-outline"}`}></ion-icon>
         </div>
 
         <div onClick={props.toogleTheme} className={`toggle-theme-btn text-${props.theme === 'light' ? 'light' : 'yellow rotation'} bg-${props.theme === 'light' ? 'dark' : 'dark'}`}>

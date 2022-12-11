@@ -9,11 +9,11 @@
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: space-between;
-    padding:clamp(1.1em, 1vw, 2em);
+    padding: clamp(1.1em, 1vw, 2em);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.navbar ul {
+.nav-menu {
     display: inline-flex;
     align-items: center;
     gap: 4rem;
@@ -38,7 +38,7 @@
 
 .logo {
     width: clamp(2rem, 3vw, 4rem);
-    height:clamp(2rem, 3vw, 4rem);
+    height: clamp(2rem, 3vw, 4rem);
     object-fit: contain;
     border-radius: 50%;
     border: 2px solid #407BFF;
@@ -55,9 +55,10 @@
     display: none;
 }
 
-ion-icon[name="menu"],ion-icon[name="close-circle-outline"] {
+ion-icon[name="menu"],
+ion-icon[name="close-circle-outline"] {
     width: clamp(2rem, 3vw, 4rem);
-    height:clamp(2rem, 3vw, 4rem);
+    height: clamp(2rem, 3vw, 4rem);
     font-size: clamp(1.4rem, 2vw, 3rem);
 }
 
@@ -66,7 +67,7 @@ ion-icon[name="menu"],ion-icon[name="close-circle-outline"] {
     align-items: center;
     justify-content: center;
     width: clamp(2rem, 3vw, 4rem);
-    height:clamp(2rem, 3vw, 4rem);
+    height: clamp(2rem, 3vw, 4rem);
     font-size: clamp(1.4rem, 2vw, 3rem);
     border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -74,6 +75,17 @@ ion-icon[name="menu"],ion-icon[name="close-circle-outline"] {
 
 .rotation {
     animation: rotation 10s infinite linear;
+}
+
+.mobile-menu {
+    /* min-height: 100vh; */
+    padding: 1rem;
+    order: 3;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    border-radius: 12px;
+    gap: 2rem;
 }
 
 @keyframes rotation {
@@ -87,17 +99,9 @@ ion-icon[name="menu"],ion-icon[name="close-circle-outline"] {
 }
 
 @media screen and (max-width: 800px) {
-    .navbar ul {
-        min-height: 100vh;
-        padding: 1rem;
-        order: 3;
-        width: 100%;
+    .nav-menu {
         display: none;
-        flex-direction: column;
-        border-radius: 12px;
-        gap: 2rem;
     }
-
     .expand-menu {
         display: inline;
     }
