@@ -50,6 +50,7 @@
     font-weight: 500;
     font-size: clamp(0.8rem, 1vw, 2rem);
     letter-spacing: 1px;
+    cursor: pointer;
 }
 
 .social-links {
@@ -83,6 +84,7 @@
     width: 100%;
     object-fit: contain;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
