@@ -5,6 +5,8 @@ import { Link, NavLink } from "react-router-dom"
 
 export default function Navbar(props) {
 
+  const [mobileMenuState, setMobileMenuState] = useState(false);
+
   window.addEventListener("resize", function () {
     if (window.innerWidth >= 800) {
       var menu = document.querySelector(".navbar ul");
@@ -12,9 +14,6 @@ export default function Navbar(props) {
       setMobileMenuState(false);
     }
   })
-
-  const [mobileMenuState, setMobileMenuState] = useState(false);
-
 
   const toggleMenu = () => {
     var menu = document.querySelector(".navbar ul");
@@ -26,6 +25,11 @@ export default function Navbar(props) {
       setMobileMenuState(false);
     }
   }
+  const handleClick = () => {
+    var menu = document.querySelector(".navbar ul");
+    menu.className = "nav-menu";
+    setMobileMenuState(false);
+  }
 
   return (
     <div className={`navbar bg-${props.theme}`}>
@@ -33,10 +37,10 @@ export default function Navbar(props) {
       <Link to="/"><img className='logo' src={logo} alt="" /></Link>
 
       <ul className="nav-menu">
-        <li><NavLink className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/">Home <ion-icon name="home"></ion-icon></NavLink></li>
-        <li><NavLink className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/work">Work <ion-icon name="logo-react"></ion-icon></NavLink></li>
-        <li><NavLink className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/tools">Tools <ion-icon name="build"></ion-icon></NavLink></li>
-        <li><NavLink className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/hire">Hire Me <ion-icon name="ribbon"></ion-icon></NavLink></li>
+        <li><NavLink onClick={handleClick} className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/">Home <ion-icon name="home"></ion-icon></NavLink></li>
+        <li><NavLink onClick={handleClick} className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/work">Work <ion-icon name="logo-react"></ion-icon></NavLink></li>
+        <li><NavLink onClick={handleClick} className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/tools">Tools <ion-icon name="build"></ion-icon></NavLink></li>
+        <li><NavLink onClick={handleClick} className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/hire">Hire Me <ion-icon name="ribbon"></ion-icon></NavLink></li>
         {/* <li><a className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} href="tel:+919485901109">Contact <ion-icon name="call"></ion-icon></a></li> */}
       </ul>
 
