@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Home from './Home';
 import Work from './Work';
 import Hire from './Hire';
+import Tools from './Tools';
 import Footer from './Footer';
 import {
   HashRouter as Router,
@@ -42,6 +43,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home theme={defaultTheme} />} />
         <Route path='/work' element={<Work theme={defaultTheme} />} />
+        <Route path='/tools' element={<Tools theme={defaultTheme} />} />
         <Route path='/hire' element={<Hire theme={defaultTheme} />} />
       </Routes>
       <Footer theme={defaultTheme} />
