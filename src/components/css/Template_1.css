@@ -1,5 +1,5 @@
 .grid {
-    padding: 4rem 0 0 0;
+    min-height: 100vh;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
     overflow: hidden;
