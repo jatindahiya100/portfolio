@@ -5,7 +5,6 @@ import collab from './img/2.svg'
 import design from './img/3.svg'
 import freelancer from './img/4.svg'
 import resume from './img/resume.pdf';
-import anime from 'animejs/lib/anime.es.js';
 
 
 export default function Home(props) {
