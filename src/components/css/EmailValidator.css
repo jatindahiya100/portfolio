@@ -1,0 +1,79 @@
+.EmailValidator form {
+    width: max-content;
+    padding: 0.25em 0.5em;
+    border: 4px solid rgb(95, 95, 95);
+    border-radius: 5em;
+    display: inline-flex;
+    align-items: center;
+}
+
+.EmailValidator input {
+    border: none;
+    outline: none;
+    outline: none;
+    border: none;
+    padding: 1em 1.4em;
+    background-color: transparent;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    font-weight: 500;
+    font-size: clamp(0.8rem, 1vw, 2rem);
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.EmailValidator button {
+    width: max-content;
+    outline: none;
+    border: none;
+    padding: 1em 1.4em;
+    background-color: #407BFF;
+    color: #fff;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    font-weight: 500;
+    font-size: clamp(0.8rem, 1vw, 2rem);
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.EmailValidator .response {
+    width: 100%;
+    padding: 2em;
+    border-radius: 1em;
+    /* height: 0; */
+    /* visibility: hidden; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.EmailValidator .response table {
+    width: 100%;
+}
+
+.EmailValidator .response table tbody {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.EmailValidator .response table tr {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.EmailValidator .response table tr td {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: inherit;
+}
+
+.EmailValidator .response table tr td:nth-child(1) {
+    text-transform: capitalize;
+}
