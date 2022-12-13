@@ -22,7 +22,17 @@ a {
 }
 
 .bg-dark {
-    background-color: #1F2937;
+    background-color: #151515;
+    transition: 1s;
+}
+
+.bg-slight-dark {
+    background-color: rgb(31, 31, 31);
+    transition: 1s;
+}
+
+.bg-extra-dark {
+    background-color: #050505;
     transition: 1s;
 }
 

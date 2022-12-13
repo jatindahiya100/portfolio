@@ -4,15 +4,15 @@ import './css/Footer.css'
 
 export default function Footer(props) {
   return (
-    <footer>
-      <div className={`newsletter-container`}>
+    <footer className={`bg-${props.theme === 'light' ? 'dark' : 'extra-dark'}`}>
+      <div className={`newsletter-container bg-${props.theme === 'light' ? 'light' : 'slight-dark'}`}>
         <div className="">
-          <h3>Drop your email</h3> <br />
-          <label htmlFor="">&amp; we'll get in touch soon</label>
+          <h3 className={`text-${props.theme === 'light' ? 'dark' : 'light'}`}>Drop your email</h3> <br />
+          <label htmlFor="" className={`text-xtra-${props.theme === 'light' ? 'light' : 'dark'}`}>&amp; we'll get in touch soon</label>
         </div>
         <div className="">
           <form>
-            <input type="email" placeholder='Email Address' />
+            <input className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} type="email" placeholder='Email Address' />
             <button>Submit</button>
           </form>
         </div>

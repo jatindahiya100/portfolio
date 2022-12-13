@@ -3,7 +3,6 @@ footer {
     margin-top: 10%;
     bottom: 0;
     min-height: 400px;
-    background-color: #151515;
     display: flex;
     flex-direction: column;
     gap: 1em;
@@ -17,13 +16,13 @@ footer {
     min-height: 60%;
     border-radius: 2em;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background-color: white;
     display: flex;
     gap: 1em;
     align-items: center;
     padding: 2rem;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    z-index: 100;
 }
 
 .newsletter-container h3 {
