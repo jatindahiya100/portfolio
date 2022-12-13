@@ -1,7 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './css/Footer.css'
-// import { Link } from "react-router-dom"
-
 
 export default function Footer(props) {
   return (
@@ -21,10 +20,10 @@ export default function Footer(props) {
 
       <div className="links">
         <ul>
-          <li><a href="/">Home <ion-icon name="home"></ion-icon></a></li>
-          <li><a href="/">Work <ion-icon name="logo-react"></ion-icon></a></li>
-          <li><a href="/">Tools <ion-icon name="build"></ion-icon></a></li>
-          <li><a href="/">Hire <ion-icon name="ribbon"></ion-icon></a></li>
+          <li><Link to="/">Home <ion-icon name="home"></ion-icon></Link></li>
+          <li><Link to="/work">Work <ion-icon name="logo-react"></ion-icon></Link></li>
+          <li><Link to="/tools">Tools <ion-icon name="build"></ion-icon></Link></li>
+          <li><Link to="/hire">Hire <ion-icon name="ribbon"></ion-icon></Link></li>
         </ul>
         <ul>
           <li><a href="/">FAQs <ion-icon name="help-circle"></ion-icon></a></li>
