@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-react.js/static/css/main.789535b6.css",
-    "main.js": "/portfolio-react.js/static/js/main.3196030b.js",
+    "main.js": "/portfolio-react.js/static/js/main.bdaf156a.js",
     "static/js/787.febf3f28.chunk.js": "/portfolio-react.js/static/js/787.febf3f28.chunk.js",
     "static/media/MacBook-Pro-Rainfire.png": "/portfolio-react.js/static/media/MacBook-Pro-Rainfire.2d36dcbbe3062afd7ca3.png",
     "static/media/JP-Lewis-Group.png": "/portfolio-react.js/static/media/JP-Lewis-Group.de8a0ce5022c9724bd10.png",
@@ -20,11 +20,11 @@
     "static/media/2.svg": "/portfolio-react.js/static/media/2.fad963929cb2caff87d0f8fa6369db32.svg",
     "index.html": "/portfolio-react.js/index.html",
     "main.789535b6.css.map": "/portfolio-react.js/static/css/main.789535b6.css.map",
-    "main.3196030b.js.map": "/portfolio-react.js/static/js/main.3196030b.js.map",
+    "main.bdaf156a.js.map": "/portfolio-react.js/static/js/main.bdaf156a.js.map",
     "787.febf3f28.chunk.js.map": "/portfolio-react.js/static/js/787.febf3f28.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.789535b6.css",
-    "static/js/main.3196030b.js"
+    "static/js/main.bdaf156a.js"
   ]
 }
