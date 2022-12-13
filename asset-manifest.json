@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react.js/static/css/main.2f4d0a4d.css",
-    "main.js": "/portfolio-react.js/static/js/main.7b63a5ed.js",
+    "main.css": "/portfolio-react.js/static/css/main.0b24593b.css",
+    "main.js": "/portfolio-react.js/static/js/main.303c70ff.js",
     "static/js/787.febf3f28.chunk.js": "/portfolio-react.js/static/js/787.febf3f28.chunk.js",
     "static/media/MacBook-Pro-Rainfire.png": "/portfolio-react.js/static/media/MacBook-Pro-Rainfire.2d36dcbbe3062afd7ca3.png",
     "static/media/JP-Lewis-Group.png": "/portfolio-react.js/static/media/JP-Lewis-Group.de8a0ce5022c9724bd10.png",
@@ -19,12 +19,12 @@
     "static/media/resume.pdf": "/portfolio-react.js/static/media/resume.9f52a76a913da4b28f4e.pdf",
     "static/media/2.svg": "/portfolio-react.js/static/media/2.fad963929cb2caff87d0f8fa6369db32.svg",
     "index.html": "/portfolio-react.js/index.html",
-    "main.2f4d0a4d.css.map": "/portfolio-react.js/static/css/main.2f4d0a4d.css.map",
-    "main.7b63a5ed.js.map": "/portfolio-react.js/static/js/main.7b63a5ed.js.map",
+    "main.0b24593b.css.map": "/portfolio-react.js/static/css/main.0b24593b.css.map",
+    "main.303c70ff.js.map": "/portfolio-react.js/static/js/main.303c70ff.js.map",
     "787.febf3f28.chunk.js.map": "/portfolio-react.js/static/js/787.febf3f28.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f4d0a4d.css",
-    "static/js/main.7b63a5ed.js"
+    "static/css/main.0b24593b.css",
+    "static/js/main.303c70ff.js"
   ]
 }
