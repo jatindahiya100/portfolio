@@ -1,8 +1,8 @@
 .grid {
-    padding: 4rem 0 0 0;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
     overflow: hidden;
+    min-height: 100vh;
 }
 
 .grid:nth-child(odd) {
@@ -14,7 +14,7 @@
 }
 
 .grid-item {
-    padding: 10%;
+    padding: 5%;
     display: flex;
     flex-direction: column;
     gap: 2rem;

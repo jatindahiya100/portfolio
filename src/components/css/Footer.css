@@ -101,6 +101,7 @@ footer {
 .footer-bottom .copyright {
     color: rgba(255, 255, 255, 0.911);
     font-weight: 300;
+    font-size: small;
 }
 
 @media screen and (max-width:600px) {
