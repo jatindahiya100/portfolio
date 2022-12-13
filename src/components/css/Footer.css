@@ -26,10 +26,15 @@ footer {
 }
 
 .newsletter-container h3 {
-    font-size: xx-large;
+    font-size: clamp(2rem, 3.4vw, 4.6rem);
     font-weight: 800;
     text-align: center;
     font-family: inherit;
+}
+
+.newsletter-container label {
+    font-size: clamp(0.8rem, 1vw, 1.8rem);
+    line-height: clamp(1.8rem, 2vw, 2.8rem);
 }
 
 .newsletter-container form {
@@ -43,9 +48,19 @@ footer {
 .newsletter-container form input {
     border: none;
     outline: none;
-    background: transparent;
-    font-weight: 600;
-    font-size: larger;
+    outline: none;
+    border: none;
+    padding: 1em 1.4em;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    font-weight: 500;
+    font-size: clamp(0.8rem, 1vw, 2rem);
+    letter-spacing: 1px;
+    cursor: pointer;
 }
 
 .newsletter-container button {
@@ -69,7 +84,7 @@ footer .links {
     width: 70%;
     position: absolute;
     z-index: 1000;
-    top: 35%;
+    top: 40%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
     gap: 10%;
@@ -93,7 +108,8 @@ footer .links ul li a {
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 12px;
+    font-size: clamp(0.6rem, 1vw, 1.4rem);
+    line-height: clamp(1.2rem, 1vw, 1.8rem);
 }
 
 footer .links ul li a:hover {
