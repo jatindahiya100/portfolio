@@ -29,8 +29,6 @@ var arr = {
     "catch_all": true
 }
 
-console.log(arr["email"]);
-
 export default function EmailValidator(props) {
 
     return (
