@@ -8,7 +8,8 @@ export default function Footer(props) {
     <footer>
       <div className={`newsletter-container`}>
         <div className="">
-          <h3>Drop your email &amp; we'll get in touch soon</h3>
+          <h3>Drop your email</h3> <br />
+          <label htmlFor="">&amp; we'll get in touch soon</label>
         </div>
         <div className="">
           <form>
