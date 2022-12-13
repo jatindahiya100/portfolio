@@ -1,7 +1,6 @@
 .grid {
     padding: 4rem 0 0 0;
     display: grid;
-    align-items: center;
     grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
     overflow: hidden;
 }
@@ -19,6 +18,10 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+}
+
+.center-grid-item {
+    align-items: center;
 }
 
 .grid .grid-item h1 {
@@ -73,27 +76,27 @@
     background-color: #407BFF;
     color: aliceblue;
 }
-.grid-item figcaption {
-    text-align: center;
-    font-weight: 300;
-    padding-top: 0.25em;
-    font-size: clamp(0.8rem, 1vw, 1.8rem);
+
+.grid-item figure {
+    height: 100%;
+    width: 100%;
 }
+
 .grid-item figure img {
-    margin: 0 auto;
     width: 100%;
     object-fit: contain;
     border-radius: 6px;
     cursor: pointer;
 }
 
-@media screen and (max-width: 600px) {
-    .grid {
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    }
+.grid-item figcaption {
+    text-align: center;
+    font-weight: 300;
+    padding-top: 0.25em;
+    font-size: clamp(0.8rem, 1vw, 1.8rem);
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 800px) {
     .grid {
         grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
     }
