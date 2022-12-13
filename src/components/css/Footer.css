@@ -17,7 +17,7 @@ footer {
     border-radius: 2em;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     display: flex;
-    gap: 1em;
+    gap: 2em;
     align-items: center;
     padding: 2rem;
     justify-content: space-evenly;
@@ -157,7 +157,7 @@ footer .links ul li a:hover {
     .newsletter-container form {
         flex-wrap: wrap;
         border: none;
-        gap: 1em;
+        gap: 2em;
     }
 
     .newsletter-container button {
