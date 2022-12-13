@@ -11,7 +11,8 @@ export default function Template_1(props) {
     };
     return (
         <div className={`grid center-grid-item bg-${props.myObj.theme}`}>
-            <div className='grid-item'>
+            <div className='grid-item' data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
                 <h1 className={`text-${props.myObj.theme === 'light' ? 'dark' : 'light'}`}>{props.myObj.h1} <span> {props.myObj.span} </span></h1>
                 <p className={`text-xtra-${props.myObj.theme === 'light' ? 'light' : 'dark'}`}>{props.myObj.description}
                 </p>
@@ -25,7 +26,8 @@ export default function Template_1(props) {
                 </div>
                 <button onClick={handleClick}>{props.myObj.btnText} <ion-icon name={props.myObj.btnIcon}></ion-icon></button>
             </div>
-            <div className='grid-item center-grid-item'>
+            <div className='grid-item center-grid-item' data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
                 <figure>
                     <img onClick={handleClick} src={props.myObj.imgSrc} alt="" />
                     <figcaption className={`text-xtra-${props.myObj.theme === 'light' ? 'light' : 'dark'}`}>{props.myObj.figcaption}</figcaption>

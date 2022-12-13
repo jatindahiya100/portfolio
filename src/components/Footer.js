@@ -1,11 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './css/Footer.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 export default function Footer(props) {
   return (
     <footer className={`bg-${props.theme === 'light' ? 'dark' : 'extra-dark'}`}>
-      <div className={`newsletter-container bg-${props.theme === 'light' ? 'light' : 'slight-dark'}`}>
+      <div data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom" className={`newsletter-container bg-${props.theme === 'light' ? 'light' : 'slight-dark'}`}>
         <div className="">
           <h3 className={`text-${props.theme === 'light' ? 'dark' : 'light'}`}>Drop Your Email</h3>
           <label htmlFor="" className={`text-xtra-${props.theme === 'light' ? 'light' : 'dark'}`}>&amp; We'll Catch You Soon</label>
