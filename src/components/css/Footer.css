@@ -105,14 +105,17 @@ footer {
 }
 
 @media screen and (max-width:600px) {
+    footer {
+        padding: 1em;
+        height: auto;
+    }
 
     .newsletter-container,
     .footer-bottom {
         position: unset;
-    }
-
-    footer {
-        padding: 1em;
+        top: unset;
+        left: unset;
+        bottom: unset;
     }
 
     .newsletter-container form {

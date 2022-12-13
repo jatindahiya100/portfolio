@@ -99,5 +99,7 @@
 @media screen and (max-width: 800px) {
     .grid {
         grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+        height: auto;
+        padding: 4rem 0 0 0;
     }
 }
