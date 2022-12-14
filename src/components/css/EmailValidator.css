@@ -45,8 +45,6 @@
     width: 100%;
     padding: 2em;
     border-radius: 1em;
-    /* height: 0; */
-    /* visibility: hidden; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -76,4 +74,41 @@
 
 .EmailValidator .response table tr td:nth-child(1) {
     text-transform: capitalize;
+}
+
+@media screen and (max-width:600px) {
+    .EmailValidator form {
+        width: 100%;
+        flex-direction: column;
+        border: none;
+        gap: 2em;
+    }
+
+    .EmailValidator input {
+        width: 100%;
+        background-color: rgba(128, 128, 128, 0.274);
+    }
+
+    .EmailValidator button {
+        width: 100%;
+    }
+
+    .EmailValidator .response {
+        box-shadow: none;
+        padding: unset;
+    }
+
+    .EmailValidator .response table tbody {
+        display: grid;
+    
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+
+    .EmailValidator .response table tr {
+        padding: 1em;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        flex-direction: column;
+        gap: 1em;
+        border-radius: 1em;
+    }
 }

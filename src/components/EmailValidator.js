@@ -55,9 +55,9 @@ export default function EmailValidator(props) {
                     <table>
                         <tbody className={`text-${props.theme === 'light' ? 'dark' : 'light'}`}>
                             <tr>
-                                <td>valid syntax</td>
+                                <td>syntax</td>
                                 <td>
-                                    {inputEmail}
+                                    {defaultResponse["valid"] === true ? 'Valid' : 'Invalid'}
                                     <ion-icon name={`${defaultResponse["valid"] === true ? 'checkmark-circle-outline' : 'close-circle'}`}></ion-icon>
                                 </td>
                             </tr>
@@ -71,10 +71,10 @@ export default function EmailValidator(props) {
                                 <td>Hosted At</td>
                                 <td>{defaultResponse["domain"]}</td>
                             </tr>
-                            <tr>
+                            {/* <tr>
                                 <td>MX Host</td>
                                 <td>{defaultResponse["mx_host"]}</td>
-                            </tr>
+                            </tr> */}
                             <tr>
                                 <td>mx_ip</td>
                                 <td>{defaultResponse["mx_ip"]}</td>
@@ -82,6 +82,7 @@ export default function EmailValidator(props) {
                             <tr>
                                 <td>disposable</td>
                                 <td>
+                                    {defaultResponse["disposable"] === true ? 'Yes' : 'No'}
                                     <ion-icon name={`${defaultResponse["disposable"] === true ? 'checkmark-circle-outline' : 'close-circle'}`}></ion-icon>
                                 </td>
                             </tr>
