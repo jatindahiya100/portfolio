@@ -8,7 +8,7 @@ export default function Footer(props) {
       <div className={`newsletter-container bg-${props.theme === 'light' ? 'light' : 'slight-dark'}`}>
         <div className="">
           <h3 className={`text-${props.theme === 'light' ? 'dark' : 'light'}`}>Drop Your Email</h3>
-          <label htmlFor="" className={`text-xtra-${props.theme === 'light' ? 'light' : 'dark'}`}>&amp; We'll Catch You Soon</label>
+          <label htmlFor="newsletter-secondary-text" className={`text-xtra-${props.theme === 'light' ? 'light' : 'dark'}`}>&amp; We'll Catch You Soon</label>
         </div>
         <div className="">
           <form>

@@ -2,18 +2,6 @@ import React from 'react'
 import './css/Template_1.css'
 import './css/EmailValidator.css'
 import email_validation from './img/email_validation_api.png'
-// setTimeout(() => {
-//     fetch('https://api.emailvalidation.io/v1/info?email=support@emailvalidation.io', {
-//         headers: {
-//             apikey: 'process.env.REACT_APP_API_KEY'
-//         }
-//     })
-//         .then(response => response.json())
-//         .then(data => {
-//             console.log(data);
-//         });
-// }, 3000);
-
 var arr = {
     "email": "support@emailvalidation.io",
     "user": "support",
@@ -30,6 +18,21 @@ var arr = {
 }
 
 export default function EmailValidator(props) {
+    const validateEmail = (e) => {
+        e.preventDefault();
+        const options = {
+            method: 'GET',
+            headers: {
+                'X-RapidAPI-Key': '17daffad15mshfee9d23cd25ced1p1931f7jsn9a3fe0967506',
+                'X-RapidAPI-Host': 'mailcheck.p.rapidapi.com'
+            }
+        };
+
+        fetch('https://mailcheck.p.rapidapi.com/?domain=jatindahiya100%40gmail.com', options)
+            .then(response => response.json())
+            .then(response => console.log(response))
+            .catch(err => console.error(err));
+    }
 
     return (
         <div className={`EmailValidator grid center-grid-item bg-${props.theme}`}>
@@ -37,7 +40,7 @@ export default function EmailValidator(props) {
                 <h1 className={`text-${props.theme === 'light' ? 'dark' : 'light'}`}>Email Validation Tool <span>Try it yourself</span></h1>
                 <form>
                     <input className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} type="email" placeholder='Email Address' />
-                    <button>Validate Email</button>
+                    <button onClick={validateEmail}>Validate Email</button>
                 </form>
                 <div className={`response bg-${props.theme === 'light' ? 'light' : 'slight-dark'}`}>
                     <table>
