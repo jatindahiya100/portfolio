@@ -1,36 +1,45 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './css/Template_1.css'
 import './css/EmailValidator.css'
 import email_validation from './img/email_validation_api.png'
-var arr = {
-    "email": "support@emailvalidation.io",
-    "user": "support",
-    "domain": "emailvalidation.io",
-    "smtp_check": true,
-    "mx_found": true,
-    "did_you_mean": "",
-    "role": true,
-    "disposable": false,
-    "score": 0.64,
-    "free": false,
-    "format_valid": true,
-    "catch_all": true
-}
 
 export default function EmailValidator(props) {
+    const demoResponse = {
+        "valid": true,
+        "block": true,
+        "disposable": false,
+        "domain": "gmail.com",
+        "text": "Looks okay",
+        "reason": "Whitelisted",
+        "risk": 8,
+        "mx_host": "gmail-smtp-in.l.google.com",
+        "possible_typo": [],
+        "mx_ip": "172.253.115.26",
+        "mx_info": "Using MX pointer gmail-smtp-in.l.google.com from DNS with priority: 5",
+        "last_changed_at": "2020-04-14T20:33:28+02:00"
+    }
+    const [defaultResponse, setResponse] = useState(demoResponse);
+    const [inputEmail, setinputEmail] = useState('john@example.com');
+
+    const handleChange = (event) => {
+        setinputEmail(event.target.value);
+    }
+
     const validateEmail = (e) => {
         e.preventDefault();
         const options = {
             method: 'GET',
             headers: {
-                'X-RapidAPI-Key': '17daffad15mshfee9d23cd25ced1p1931f7jsn9a3fe0967506',
+                'X-RapidAPI-Key': process.env.REACT_APP_API_KEY,
                 'X-RapidAPI-Host': 'mailcheck.p.rapidapi.com'
             }
         };
 
-        fetch('https://mailcheck.p.rapidapi.com/?domain=jatindahiya100%40gmail.com', options)
+        fetch('https://mailcheck.p.rapidapi.com/?domain=' + inputEmail, options)
             .then(response => response.json())
-            .then(response => console.log(response))
+            .then(response =>
+                setResponse(response)
+            )
             .catch(err => console.error(err));
     }
 
@@ -39,48 +48,59 @@ export default function EmailValidator(props) {
             <div className="grid-item">
                 <h1 className={`text-${props.theme === 'light' ? 'dark' : 'light'}`}>Email Validation Tool <span>Try it yourself</span></h1>
                 <form>
-                    <input className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} type="email" placeholder='Email Address' />
+                    <input onChange={handleChange} className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} type="email" placeholder={inputEmail} />
                     <button onClick={validateEmail}>Validate Email</button>
                 </form>
                 <div className={`response bg-${props.theme === 'light' ? 'light' : 'slight-dark'}`}>
                     <table>
                         <tbody className={`text-${props.theme === 'light' ? 'dark' : 'light'}`}>
                             <tr>
-                                <td>Email</td>
+                                <td>valid syntax</td>
                                 <td>
-                                    {arr["email"]}<ion-icon name={`${arr["smtp_check"] === true ? 'checkmark-circle-outline' : 'close-circle'}`}></ion-icon>
+                                    {inputEmail}
+                                    <ion-icon name={`${defaultResponse["valid"] === true ? 'checkmark-circle-outline' : 'close-circle'}`}></ion-icon>
                                 </td>
                             </tr>
                             <tr>
-                                <td>Username</td>
-                                <td>{arr["user"]}</td>
-                            </tr>
-                            <tr>
-                                <td>domain</td>
-                                <td>{arr["domain"]}</td>
-                            </tr>
-                            <tr>
-                                <td>SMTP Check</td>
+                                <td>Block</td>
                                 <td>
-                                    <ion-icon name={`${arr["smtp_check"] === true ? 'checkmark-circle-outline' : 'close-circle'}`}></ion-icon>
+                                    {defaultResponse["block"]}<ion-icon name={`${defaultResponse["block"] === true ? 'checkmark-circle-outline' : 'close-circle'}`}></ion-icon>
                                 </td>
+                            </tr>
+                            <tr>
+                                <td>Hosted At</td>
+                                <td>{defaultResponse["domain"]}</td>
+                            </tr>
+                            <tr>
+                                <td>MX Host</td>
+                                <td>{defaultResponse["mx_host"]}</td>
+                            </tr>
+                            <tr>
+                                <td>mx_ip</td>
+                                <td>{defaultResponse["mx_ip"]}</td>
                             </tr>
                             <tr>
                                 <td>disposable</td>
                                 <td>
-                                    <ion-icon name={`${arr["disposable"] === true ? 'checkmark-circle-outline' : 'close-circle'}`}></ion-icon>
+                                    <ion-icon name={`${defaultResponse["disposable"] === true ? 'checkmark-circle-outline' : 'close-circle'}`}></ion-icon>
                                 </td>
                             </tr>
                             <tr>
-                                <td>Free</td>
+                                <td>Status</td>
                                 <td>
-                                    <ion-icon name={`${arr["free"] === true ? 'checkmark-circle-outline' : 'close-circle'}`}></ion-icon>
+                                    {defaultResponse["text"]}
                                 </td>
                             </tr>
                             <tr>
-                                <td>Valid Format</td>
+                                <td>Reason</td>
                                 <td>
-                                    <ion-icon name={`${arr["format_valid"] === true ? 'checkmark-circle-outline' : 'close-circle'}`}></ion-icon>
+                                    {defaultResponse["reason"]}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>risk</td>
+                                <td>
+                                    {defaultResponse["risk"]}
                                 </td>
                             </tr>
                         </tbody>
