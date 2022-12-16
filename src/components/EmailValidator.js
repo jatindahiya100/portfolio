@@ -62,25 +62,7 @@ export default function EmailValidator(props) {
                                 </td>
                             </tr>
                             <tr>
-                                <td>Block</td>
-                                <td>
-                                    {defaultResponse["block"]}<ion-icon name={`${defaultResponse["block"] === true ? 'checkmark-circle-outline' : 'close-circle'}`}></ion-icon>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Hosted At</td>
-                                <td>{defaultResponse["domain"]}</td>
-                            </tr>
-                            {/* <tr>
-                                <td>MX Host</td>
-                                <td>{defaultResponse["mx_host"]}</td>
-                            </tr> */}
-                            <tr>
-                                <td>mx_ip</td>
-                                <td>{defaultResponse["mx_ip"]}</td>
-                            </tr>
-                            <tr>
-                                <td>disposable</td>
+                                <td>Temporary Email</td>
                                 <td>
                                     {defaultResponse["disposable"] === true ? 'Yes' : 'No'}
                                     <ion-icon name={`${defaultResponse["disposable"] === true ? 'checkmark-circle-outline' : 'close-circle'}`}></ion-icon>
