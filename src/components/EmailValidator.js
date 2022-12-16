@@ -26,11 +26,11 @@ export default function EmailValidator(props) {
     }
 
     const validateEmail = (e) => {
-        e.preventDefault();
+        e.target.value = "Fetching...";
         const options = {
             method: 'GET',
             headers: {
-                'X-RapidAPI-Key': process.env.REACT_APP_API_KEY,
+                'X-RapidAPI-Key': 'f8bef181aemsha0a3b9003e00e4fp1a8db0jsna676ef08463e',
                 'X-RapidAPI-Host': 'mailcheck.p.rapidapi.com'
             }
         };
@@ -49,7 +49,7 @@ export default function EmailValidator(props) {
                 <h1 className={`text-${props.theme === 'light' ? 'dark' : 'light'}`}>Email Validation Tool <span>Try it yourself</span></h1>
                 <form>
                     <input onChange={handleChange} className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} type="email" placeholder={inputEmail} />
-                    <button onClick={validateEmail}>Validate Email</button>
+                    <input type="button" value="Validate Email" onClick={validateEmail} />
                 </form>
                 <div className={`response bg-${props.theme === 'light' ? 'light' : 'slight-dark'}`}>
                     <table>

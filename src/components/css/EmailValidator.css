@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.EmailValidator input {
+.EmailValidator input[type="email"] {
     border: none;
     outline: none;
     outline: none;
@@ -24,7 +24,7 @@
     cursor: pointer;
 }
 
-.EmailValidator button {
+.EmailValidator input[type="button"] {
     width: max-content;
     outline: none;
     border: none;
@@ -84,13 +84,9 @@
         gap: 2em;
     }
 
-    .EmailValidator input {
+    .EmailValidator input[type="email"] {
         width: 100%;
         background-color: rgba(128, 128, 128, 0.274);
-    }
-
-    .EmailValidator button {
-        width: 100%;
     }
 
     .EmailValidator .response {
@@ -100,7 +96,7 @@
 
     .EmailValidator .response table tbody {
         display: grid;
-    
+
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
 
