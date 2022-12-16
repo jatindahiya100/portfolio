@@ -1,7 +1,6 @@
 import React from 'react'
 import './css/tools.css'
 import gmailIcon from './img/icons/gmail.png'
-import calculatorIcon from './img/icons/calculator.png'
 import keywordIcon from './img/icons/keyword.png'
 import youtubeIcon from './img/icons/youtube.png'
 import instagramIcon from './img/icons/instagram.png'
@@ -18,27 +17,16 @@ export default function Tools(props) {
             <img src={gmailIcon} alt="" />
             <div className="aboutTool">
               <label className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} htmlFor="toolName">Email Validation</label>
-              <p className={`text-xtra-${props.theme === 'light' ? 'light' : 'dark'}`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, maiores.</p>
+              <p className={`text-xtra-${props.theme === 'light' ? 'light' : 'dark'}`}>Validate any email address and decide whether you should block it or not.</p>
               <button>Try it now</button>
             </div>
           </div>
-
-
-          <div className={`tool bg-${props.theme === 'light' ? 'light' : 'slight-dark'}`}>
-            <img src={calculatorIcon} alt="" />
-            <div className="aboutTool">
-              <label className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} htmlFor="toolName">Calculator</label>
-              <p className={`text-xtra-${props.theme === 'light' ? 'light' : 'dark'}`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, maiores.</p>
-              <button>Launching Soon</button>
-            </div>
-          </div>
-
 
           <div className={`tool bg-${props.theme === 'light' ? 'light' : 'slight-dark'}`}>
             <img src={keywordIcon} alt="" />
             <div className="aboutTool">
               <label className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} htmlFor="toolName">Keyword Research</label>
-              <p className={`text-xtra-${props.theme === 'light' ? 'light' : 'dark'}`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, maiores.</p>
+              <p className={`text-xtra-${props.theme === 'light' ? 'light' : 'dark'}`}>Find out trending keywords that will help you rank your blog on google</p>
               <button>Launching Soon</button>
             </div>
           </div>
@@ -46,8 +34,8 @@ export default function Tools(props) {
           <div className={`tool bg-${props.theme === 'light' ? 'light' : 'slight-dark'}`}>
             <img src={youtubeIcon} alt="" />
             <div className="aboutTool">
-              <label className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} htmlFor="toolName">Youtube Keywords Planner</label>
-              <p className={`text-xtra-${props.theme === 'light' ? 'light' : 'dark'}`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, maiores.</p>
+              <label className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} htmlFor="toolName">Youtube Title Generator</label>
+              <p className={`text-xtra-${props.theme === 'light' ? 'light' : 'dark'}`}>Get AI generated youtube videos titles</p>
               <button>Launching Soon</button>
             </div>
           </div>
@@ -55,8 +43,8 @@ export default function Tools(props) {
           <div className={`tool bg-${props.theme === 'light' ? 'light' : 'slight-dark'}`}>
             <img src={instagramIcon} alt="" />
             <div className="aboutTool">
-              <label className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} htmlFor="toolName">Instagram Hastags</label>
-              <p className={`text-xtra-${props.theme === 'light' ? 'light' : 'dark'}`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, maiores.</p>
+              <label className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} htmlFor="toolName">Trending Instagram #Hashtags</label>
+              <p className={`text-xtra-${props.theme === 'light' ? 'light' : 'dark'}`}>Target &amp; reach a larger audience by using trending hashtags in your posts.</p>
               <button>Launching Soon</button>
             </div>
           </div>
