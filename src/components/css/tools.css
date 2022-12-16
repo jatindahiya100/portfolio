@@ -1,0 +1,61 @@
+.toolsComponent {
+    width: 100%;
+}
+
+.toolsHolder {
+    max-width: 1900px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.toolsHolder h1 {
+    font-size: 1.4rem;
+    line-height: 4rem;
+}
+
+.toolsLayout {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+}
+
+.tool {
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    gap: 1.4em;
+}
+
+.tool img {
+    width: 3em;
+    height: 3em;
+    object-fit: contain;
+}
+
+.tool .aboutTool label {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    font-weight: bold;
+}
+
+.tool .aboutTool p {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    text-align: justify;
+}
+
+.tool .aboutTool button {
+    outline: none;
+    border: none;
+    padding: 0.50em 1em;
+    font-size: 0.8rem;
+    border-radius: 2rem;
+    margin-top: 0.5em;
+    font-family: inherit;
+    background-color: #4D38F7;
+    color: white;
+}
