@@ -5,8 +5,7 @@ import calculatorIcon from './img/icons/calculator.png'
 import keywordIcon from './img/icons/keyword.png'
 import youtubeIcon from './img/icons/youtube.png'
 import instagramIcon from './img/icons/instagram.png'
-
-// import EmailValidator from './EmailValidator';
+import EmailValidator from './EmailValidator';
 
 export default function Tools(props) {
 
@@ -30,7 +29,7 @@ export default function Tools(props) {
             <div className="aboutTool">
               <label className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} htmlFor="toolName">Calculator</label>
               <p className={`text-xtra-${props.theme === 'light' ? 'light' : 'dark'}`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, maiores.</p>
-              <button>Try it now</button>
+              <button>Launching Soon</button>
             </div>
           </div>
 
@@ -40,7 +39,7 @@ export default function Tools(props) {
             <div className="aboutTool">
               <label className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} htmlFor="toolName">Keyword Research</label>
               <p className={`text-xtra-${props.theme === 'light' ? 'light' : 'dark'}`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, maiores.</p>
-              <button>Try it now</button>
+              <button>Launching Soon</button>
             </div>
           </div>
 
@@ -49,7 +48,7 @@ export default function Tools(props) {
             <div className="aboutTool">
               <label className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} htmlFor="toolName">Youtube Keywords Planner</label>
               <p className={`text-xtra-${props.theme === 'light' ? 'light' : 'dark'}`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, maiores.</p>
-              <button>Try it now</button>
+              <button>Launching Soon</button>
             </div>
           </div>
 
@@ -58,14 +57,13 @@ export default function Tools(props) {
             <div className="aboutTool">
               <label className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} htmlFor="toolName">Instagram Hastags</label>
               <p className={`text-xtra-${props.theme === 'light' ? 'light' : 'dark'}`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, maiores.</p>
-              <button>Try it now</button>
+              <button>Launching Soon</button>
             </div>
           </div>
 
         </div>
       </div>
-
-      {/* <EmailValidator theme={props.theme} /> */}
+      <EmailValidator theme={props.theme} />
     </div>
   )
 }

@@ -54,8 +54,11 @@
     padding: 0.50em 1em;
     font-size: 0.8rem;
     border-radius: 2rem;
-    margin-top: 0.5em;
+    margin-top: 1em;
     font-family: inherit;
     background-color: #4D38F7;
     color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
 }
