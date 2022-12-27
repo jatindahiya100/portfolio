@@ -7,8 +7,8 @@
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: space-between;
-    padding: clamp(1.1em, 1vw, 2em);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0.8em;
 }
 
 .nav-menu {
@@ -30,13 +30,12 @@
     gap: 0.4em;
     padding: 0.6em 1em;
     border-radius: 50px;
-    font-size: clamp(0.8rem, 1vw, 1.8rem);
-
+    font-size: small;
 }
 
 .logo {
-    width: clamp(2rem, 3vw, 4rem);
-    height: clamp(2rem, 3vw, 4rem);
+    height: 2em;
+    width: 2em;
     object-fit: contain;
     border-radius: 50%;
     border: 2px solid #407BFF;
@@ -64,9 +63,8 @@ ion-icon[name="close-circle-outline"] {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: clamp(2rem, 3vw, 4rem);
-    height: clamp(2rem, 3vw, 4rem);
-    font-size: clamp(1.4rem, 2vw, 3rem);
+    font-size: x-large;
+    padding: 0.2em;
     border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
