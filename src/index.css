@@ -66,29 +66,6 @@ a {
     background-color: #407BFF;
 }
 
-/* Scroll Bar */
-/* width */
-::-webkit-scrollbar {
-    width: 8px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 16px;
-
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
@@ -164,6 +141,30 @@ figcaption {
     padding-top: 0.25em;
     font-size: clamp(0.8rem, 1vw, 1.8rem);
 }
+
+/* Scroll Bar */
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 16px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 
 @media screen and (max-width: 800px) {
     .grid {
