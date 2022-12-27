@@ -48,7 +48,7 @@ export default function EmailValidator(props) {
                 <h1 className={`text-${props.theme === 'light' ? 'dark' : 'light'}`}>Email Validation Tool <span>Try it yourself</span></h1>
                 <form>
                     <input onChange={handleChange} className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} type="email" placeholder={inputEmail} />
-                    <input type="button" value="Validate Email" onClick={validateEmail} />
+                    <input className='primary-btn' type="button" value="Validate Email" onClick={validateEmail} />
                 </form>
                 <div className={`response bg-${props.theme === 'light' ? 'light' : 'slight-dark'}`}>
                     <table>

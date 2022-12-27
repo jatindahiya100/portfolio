@@ -178,7 +178,8 @@ h1 span {
 }
 
 p {
-    font-size: smaller;
+    font-size: medium;
+    text-align: justify;
     line-height: 1.8em;
 }
 
