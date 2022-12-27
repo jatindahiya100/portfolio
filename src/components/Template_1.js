@@ -23,7 +23,7 @@ export default function Template_1(props) {
                     }
 
                 </div>
-                <button onClick={handleClick}>{props.myObj.btnText} <ion-icon name={props.myObj.btnIcon}></ion-icon></button>
+                <button className='primary-btn' onClick={handleClick}>{props.myObj.btnText} <ion-icon name={props.myObj.btnIcon}></ion-icon></button>
             </div>
             <div className='grid-item center-grid-item'>
                 <figure>

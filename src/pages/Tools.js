@@ -18,7 +18,7 @@ export default function Tools(props) {
             <div className="aboutTool">
               <label className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} htmlFor="toolName">Email Validation</label>
               <p className={`text-xtra-${props.theme === 'light' ? 'light' : 'dark'}`}>Validate any email address and decide whether you should block it or not.</p>
-              <button>Try it now</button>
+              <button className='primary-btn'>Try it now</button>
             </div>
           </div>
 
@@ -27,7 +27,7 @@ export default function Tools(props) {
             <div className="aboutTool">
               <label className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} htmlFor="toolName">Keyword Research</label>
               <p className={`text-xtra-${props.theme === 'light' ? 'light' : 'dark'}`}>Find out trending keywords that will help you rank your blog on google</p>
-              <button>Launching Soon</button>
+              <button className='primary-btn'>Launching Soon</button>
             </div>
           </div>
 
@@ -36,7 +36,7 @@ export default function Tools(props) {
             <div className="aboutTool">
               <label className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} htmlFor="toolName">Youtube Title Generator</label>
               <p className={`text-xtra-${props.theme === 'light' ? 'light' : 'dark'}`}>Get AI generated youtube videos titles</p>
-              <button>Launching Soon</button>
+              <button className='primary-btn'>Launching Soon</button>
             </div>
           </div>
 
@@ -45,7 +45,7 @@ export default function Tools(props) {
             <div className="aboutTool">
               <label className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} htmlFor="toolName">Trending Instagram #Hashtags</label>
               <p className={`text-xtra-${props.theme === 'light' ? 'light' : 'dark'}`}>Target &amp; reach a larger audience by using trending hashtags in your posts.</p>
-              <button>Launching Soon</button>
+              <button className='primary-btn'>Launching Soon</button>
             </div>
           </div>
 

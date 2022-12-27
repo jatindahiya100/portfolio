@@ -24,23 +24,6 @@
     cursor: pointer;
 }
 
-.EmailValidator input[type="button"] {
-    width: max-content;
-    outline: none;
-    border: none;
-    padding: 1em 1.4em;
-    background-color: #407BFF;
-    color: #fff;
-    border-radius: 50px;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4em;
-    font-weight: 500;
-    font-size: clamp(0.8rem, 1vw, 2rem);
-    letter-spacing: 1px;
-    cursor: pointer;
-}
-
 .EmailValidator .response {
     width: 100%;
     padding: 2em;

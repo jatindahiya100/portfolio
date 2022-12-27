@@ -13,7 +13,7 @@ export default function Footer(props) {
         <div className="">
           <form>
             <input className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} type="email" placeholder='Email Address' />
-            <button>Submit</button>
+            <button className='primary-btn'>Submit</button>
           </form>
         </div>
       </div>

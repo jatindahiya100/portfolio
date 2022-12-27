@@ -13,6 +13,7 @@ html {
 }
 
 a {
+    color: unset;
     text-decoration: none;
 }
 
@@ -61,11 +62,13 @@ a {
     transition: 1s;
 }
 
+/* Active Class */
 .active {
     color: white;
     background-color: #407BFF;
 }
 
+/* Layouts */
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
@@ -91,6 +94,7 @@ a {
     align-items: center;
 }
 
+/* Topograpghy */
 h1 {
     text-transform: capitalize;
     font-size: clamp(2rem, 3.4vw, 4.6rem);
@@ -101,12 +105,12 @@ h1 span {
     color: #407BFF;
 }
 
-.grid .grid-item p {
+p {
     font-size: clamp(0.8rem, 1vw, 1.8rem);
     line-height: clamp(1.8rem, 2vw, 2.8rem);
 }
 
-button {
+.primary-btn {
     width: max-content;
     outline: none;
     border: none;
