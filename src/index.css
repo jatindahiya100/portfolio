@@ -12,53 +12,72 @@ html {
     height: 100%;
 }
 
+:root {
+    --white: rgb(255, 255, 255);
+    --black: #050505;
+    --dark-gray: rgb(31, 31, 31);
+
+    --light-mode-primary-bg: rgb(255, 255, 255);
+    --light-mode-secondary-bg: rgb(230, 230, 230);
+
+    --light-mode-primary-txt: #1F2937;
+    --light-mode-secondary-txt: #1F2937A1;
+
+    --dark-mode-bg: #151515;
+    --dark-mode-primary-txt: #FFFFFFE8;
+    --dark-mode-secondary-txt: #DDDDDDA1;
+
+    --yellow: rgb(255, 235, 53);
+    --accent: #407BFF;
+}
+
 a {
     color: unset;
     text-decoration: none;
 }
 
 .bg-light {
-    background-color: rgb(255, 255, 255);
+    background-color: var(--light-mode-primary-bg);
     transition: 1s;
 }
 
 .bg-dark {
-    background-color: #151515;
+    background-color: var(--dark-mode-bg);
     transition: 1s;
 }
 
 .bg-slight-dark {
-    background-color: rgb(31, 31, 31);
+    background-color: var(--dark-gray);
     transition: 1s;
 }
 
 .bg-extra-dark {
-    background-color: #050505;
+    background-color: var(--black);
     transition: 1s;
 }
 
 .text-light {
-    color: rgba(255, 255, 255, 0.911);
+    color: var(--dark-mode-primary-txt);
     transition: 1s;
 }
 
 .text-yellow {
-    color: rgb(255, 235, 53);
+    color: var(--yellow);
     transition: 1s;
 }
 
 .text-xtra-light {
-    color: #1f2937a1;
+    color: var(--light-mode-secondary-txt);
     transition: 1s;
 }
 
 .text-xtra-dark {
-    color: #dddddda1;
+    color: var(--dark-mode-secondary-txt);
     transition: 1s;
 }
 
 .text-dark {
-    color: #1F2937;
+    color: var(--light-mode-primary-txt);
     transition: 1s;
 }
 
@@ -96,8 +115,8 @@ a {
 
 /* Active Class */
 .active {
-    color: white;
-    background-color: #407BFF;
+    color: var(--white);
+    background-color: var(--accent);
 }
 
 /* Layouts */
@@ -134,7 +153,7 @@ h1 {
 }
 
 h1 span {
-    color: #407BFF;
+    color: var(--accent);
 }
 
 p {
