@@ -1,10 +1,10 @@
 import React from 'react'
-import './css/tools.css'
-import gmailIcon from './img/icons/gmail.png'
-import keywordIcon from './img/icons/keyword.png'
-import youtubeIcon from './img/icons/youtube.png'
-import instagramIcon from './img/icons/instagram.png'
-import EmailValidator from './EmailValidator';
+import '../css/tools.css'
+import gmailIcon from '../img/icons/gmail.png'
+import keywordIcon from '../img/icons/keyword.png'
+import youtubeIcon from '../img/icons/youtube.png'
+import instagramIcon from '../img/icons/instagram.png'
+import EmailValidator from '../components/EmailValidator';
 
 export default function Tools(props) {
 

@@ -1,16 +1,16 @@
-import Navbar from './Navbar';
+import Navbar from './components/Navbar';
 import React, { useState } from 'react';
-import Home from './Home';
-import Work from './Work';
-import Hire from './Hire';
-import Tools from './Tools';
-import Footer from './Footer';
+import Home from './pages/Home';
+import Work from './pages/Work';
+import Hire from './pages/Hire';
+import Tools from './pages/Tools';
+import Footer from './components/Footer';
 import {
   HashRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
-import ScrollToTop from './ScrollToTop';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   if (localStorage.getItem('defaultTheme') === null) {

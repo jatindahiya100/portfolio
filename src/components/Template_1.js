@@ -1,5 +1,5 @@
 import React from 'react'
-import './css/Template_1.css'
+import '../css/Template_1.css'
 import { Link } from "react-router-dom"
 
 

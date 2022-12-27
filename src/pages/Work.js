@@ -1,12 +1,12 @@
 import React from 'react'
-import Template from './Template_1';
-import Rainfire from './img/MacBook-Pro-Rainfire.png'
-import Backlinks from './img/Backlinks-Tracker.png'
-import JPLewis from './img/JP-Lewis-Group.png'
-import pizzaBook from './img/PizzaBook-Home.png'
-import customDashboardUI from './img/customDashboardUI.png'
-import Appointmentwale from './img/Appointmentwale.png'
-import Alternativehealthline from './img/Alternative-Healthline.png'
+import Template from '../components/Template_1';
+import Rainfire from '../img/MacBook-Pro-Rainfire.png'
+import Backlinks from '../img/Backlinks-Tracker.png'
+import JPLewis from '../img/JP-Lewis-Group.png'
+import pizzaBook from '../img/PizzaBook-Home.png'
+import customDashboardUI from '../img/customDashboardUI.png'
+import Appointmentwale from '../img/Appointmentwale.png'
+import Alternativehealthline from '../img/Alternative-Healthline.png'
 
 export default function Work(props) {
 

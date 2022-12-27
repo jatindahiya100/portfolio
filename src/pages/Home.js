@@ -1,10 +1,10 @@
 import React from 'react'
-import Template from './Template_1';
-import ResumePhoto from './img/1.svg'
-import collab from './img/2.svg'
-import design from './img/3.svg'
-import freelancer from './img/4.svg'
-import resume from './img/resume.pdf';
+import Template from '../components/Template_1';
+import ResumePhoto from '../img/1.svg'
+import collab from '../img/2.svg'
+import design from '../img/3.svg'
+import freelancer from '../img/4.svg'
+import resume from '../img/resume.pdf';
 
 
 export default function Home(props) {

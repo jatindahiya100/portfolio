@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import logo from "./img/jatindahiya.png"
-import "./css/Navbar.css"
+import logo from "../img/jatindahiya.png"
+import "../css/Navbar.css"
 import { Link, NavLink } from "react-router-dom"
 
 export default function Navbar(props) {

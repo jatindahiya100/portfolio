@@ -1,6 +1,6 @@
 import React from 'react'
-import Template from './Template_1';
-import launch from './img/launch-amico.svg'
+import Template from '../components/Template_1';
+import launch from '../img/launch-amico.svg'
 
 
 
