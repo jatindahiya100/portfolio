@@ -43,22 +43,5 @@
 }
 
 .tool .aboutTool p {
-    font-size: 0.8rem;
-    line-height: 1.2rem;
     text-align: justify;
 }
-
-/* .tool .aboutTool button {
-    outline: none;
-    border: none;
-    padding: 0.50em 1em;
-    font-size: 0.8rem;
-    border-radius: 2rem;
-    margin-top: 1em;
-    font-family: inherit;
-    background-color: #4D38F7;
-    color: white;
-    font-weight: 500;
-    letter-spacing: 1px;
-    cursor: pointer;
-} */
