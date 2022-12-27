@@ -5,12 +5,8 @@ import Work from './pages/Work';
 import Hire from './pages/Hire';
 import Tools from './pages/Tools';
 import Footer from './components/Footer';
-import {
-  HashRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
 import ScrollToTop from './components/ScrollToTop';
+import { HashRouter as Router, Routes, Route, } from "react-router-dom";
 
 function App() {
   if (localStorage.getItem('defaultTheme') === null) {
@@ -50,6 +46,4 @@ function App() {
     </Router>
   );
 }
-// https://www.upwork.com/workwith/jatindahiya
-
 export default App;
