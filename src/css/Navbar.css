@@ -38,8 +38,8 @@
     width: 2em;
     object-fit: contain;
     border-radius: 50%;
-    border: 2px solid #407BFF;
-    outline: 2px solid #407BFF;
+    border: 2px solid var(--accent);
+    outline: 2px solid var(--accent);
 }
 
 .nav-right-items {

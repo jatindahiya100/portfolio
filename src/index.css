@@ -86,7 +86,7 @@ a {
     outline: none;
     border: none;
     padding: 1em 1.4em;
-    background-color: #407BFF;
+    background-color: var(--accent);
     color: #fff;
     border-radius: 50px;
     display: inline-flex;
@@ -162,7 +162,7 @@ a {
 }
 
 .token:hover {
-    background-color: #407BFF;
+    background-color: var(--accent);
     color: aliceblue;
 }
 
