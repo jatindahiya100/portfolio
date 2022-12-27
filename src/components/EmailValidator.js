@@ -25,21 +25,25 @@ export default function EmailValidator(props) {
     }
 
     const validateEmail = (e) => {
-        e.target.value = "Fetching...";
-        const options = {
-            method: 'GET',
-            headers: {
-                'X-RapidAPI-Key': 'f8bef181aemsha0a3b9003e00e4fp1a8db0jsna676ef08463e',
-                'X-RapidAPI-Host': 'mailcheck.p.rapidapi.com'
-            }
-        };
+        if (inputEmail.length > 0 && inputEmail !== "john@example.com") {
+            e.target.value = "Fetching...";
+            const options = {
+                method: 'GET',
+                headers: {
+                    'X-RapidAPI-Key': 'f8bef181aemsha0a3b9003e00e4fp1a8db0jsna676ef08463e',
+                    'X-RapidAPI-Host': 'mailcheck.p.rapidapi.com'
+                }
+            };
 
-        fetch('https://mailcheck.p.rapidapi.com/?domain=' + inputEmail, options)
-            .then(response => response.json())
-            .then(response =>
-                setResponse(response)
-            )
-            .catch(err => console.error(err));
+            fetch('https://mailcheck.p.rapidapi.com/?domain=' + inputEmail, options)
+                .then(response => response.json())
+                .then(response =>
+                    setResponse(response)
+                )
+                .catch(err => console.error(err));
+        } else {
+            alert("Email Field Cann't Be Left Empty");
+        }
     }
 
     return (
