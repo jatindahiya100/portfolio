@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import '../css/Template_1.css'
 import '../css/EmailValidator.css'
 import email_validation from '../img/email_validation_api.png'
 
