@@ -59,6 +59,14 @@
     text-transform: capitalize;
 }
 
+.success {
+    color: green;
+}
+
+.error {
+    color: brown;
+}
+
 @media screen and (max-width:600px) {
     .EmailValidator form {
         width: 100%;

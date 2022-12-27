@@ -74,7 +74,7 @@ export default function EmailValidator(props) {
                             </tr>
                             <tr>
                                 <td>Status</td>
-                                <td>
+                                <td className={`${defaultResponse["text"] === "Looks okay" ? "success" : "error"}`}>
                                     {defaultResponse["text"]}
                                 </td>
                             </tr>
