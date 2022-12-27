@@ -7,8 +7,7 @@
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: space-between;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    padding: 0.8em;
+    padding: 1em;
 }
 
 .nav-menu {
@@ -31,6 +30,7 @@
     padding: 0.6em 1em;
     border-radius: 50px;
     font-size: small;
+    font-weight: 500;
 }
 
 .logo {
