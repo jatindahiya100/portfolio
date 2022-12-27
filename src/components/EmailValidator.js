@@ -25,12 +25,13 @@ export default function EmailValidator(props) {
     }
 
     const validateEmail = (e) => {
+        const KEY = process.env.REACT_APP_API_KEY;
         if (inputEmail.length > 0 && inputEmail !== "john@example.com") {
             e.target.value = "Fetching...";
             const options = {
                 method: 'GET',
                 headers: {
-                    'X-RapidAPI-Key': 'f8bef181aemsha0a3b9003e00e4fp1a8db0jsna676ef08463e',
+                    'X-RapidAPI-Key': KEY,
                     'X-RapidAPI-Host': 'mailcheck.p.rapidapi.com'
                 }
             };
