@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react.js/static/css/main.3cc3f54f.css",
-    "main.js": "/portfolio-react.js/static/js/main.0dd84669.js",
+    "main.css": "/portfolio-react.js/static/css/main.8e082a8a.css",
+    "main.js": "/portfolio-react.js/static/js/main.34be46c6.js",
     "static/media/MacBook-Pro-Rainfire.png": "/portfolio-react.js/static/media/MacBook-Pro-Rainfire.2d36dcbbe3062afd7ca3.png",
     "static/media/JP-Lewis-Group.png": "/portfolio-react.js/static/media/JP-Lewis-Group.de8a0ce5022c9724bd10.png",
     "static/media/customDashboardUI.png": "/portfolio-react.js/static/media/customDashboardUI.2198ec8cb5f761d49669.png",
@@ -18,11 +18,11 @@
     "static/media/resume.pdf": "/portfolio-react.js/static/media/resume.9f52a76a913da4b28f4e.pdf",
     "static/media/2.svg": "/portfolio-react.js/static/media/2.fad963929cb2caff87d0f8fa6369db32.svg",
     "index.html": "/portfolio-react.js/index.html",
-    "main.3cc3f54f.css.map": "/portfolio-react.js/static/css/main.3cc3f54f.css.map",
-    "main.0dd84669.js.map": "/portfolio-react.js/static/js/main.0dd84669.js.map"
+    "main.8e082a8a.css.map": "/portfolio-react.js/static/css/main.8e082a8a.css.map",
+    "main.34be46c6.js.map": "/portfolio-react.js/static/js/main.34be46c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cc3f54f.css",
-    "static/js/main.0dd84669.js"
+    "static/css/main.8e082a8a.css",
+    "static/js/main.34be46c6.js"
   ]
 }
