@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio-react.js/static/css/main.8e082a8a.css",
-    "main.js": "/portfolio-react.js/static/js/main.34be46c6.js",
+    "main.css": "/portfolio-react.js/static/css/main.4a8a8fe8.css",
+    "main.js": "/portfolio-react.js/static/js/main.90da64cd.js",
     "static/media/MacBook-Pro-Rainfire.png": "/portfolio-react.js/static/media/MacBook-Pro-Rainfire.2d36dcbbe3062afd7ca3.png",
     "static/media/JP-Lewis-Group.png": "/portfolio-react.js/static/media/JP-Lewis-Group.de8a0ce5022c9724bd10.png",
     "static/media/customDashboardUI.png": "/portfolio-react.js/static/media/customDashboardUI.2198ec8cb5f761d49669.png",
     "static/media/Alternative-Healthline.png": "/portfolio-react.js/static/media/Alternative-Healthline.96ba1d06eee50c2d3a39.png",
     "static/media/PizzaBook-Home.png": "/portfolio-react.js/static/media/PizzaBook-Home.8651c6aac744d3966508.png",
     "static/media/Appointmentwale.png": "/portfolio-react.js/static/media/Appointmentwale.34b7e76db91d79c806e3.png",
+    "static/media/imagequality.png": "/portfolio-react.js/static/media/imagequality.94b7c640e20d6bceb055.png",
     "static/media/Backlinks-Tracker.png": "/portfolio-react.js/static/media/Backlinks-Tracker.ca4cde93c14d254df138.png",
     "static/media/email_validation_api.png": "/portfolio-react.js/static/media/email_validation_api.037f2c0ee8c2cbdf8b66.png",
     "static/media/jatindahiya.png": "/portfolio-react.js/static/media/jatindahiya.3a904a38764a7870f116.png",
@@ -18,11 +19,11 @@
     "static/media/resume.pdf": "/portfolio-react.js/static/media/resume.9f52a76a913da4b28f4e.pdf",
     "static/media/2.svg": "/portfolio-react.js/static/media/2.fad963929cb2caff87d0f8fa6369db32.svg",
     "index.html": "/portfolio-react.js/index.html",
-    "main.8e082a8a.css.map": "/portfolio-react.js/static/css/main.8e082a8a.css.map",
-    "main.34be46c6.js.map": "/portfolio-react.js/static/js/main.34be46c6.js.map"
+    "main.4a8a8fe8.css.map": "/portfolio-react.js/static/css/main.4a8a8fe8.css.map",
+    "main.90da64cd.js.map": "/portfolio-react.js/static/js/main.90da64cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e082a8a.css",
-    "static/js/main.34be46c6.js"
+    "static/css/main.4a8a8fe8.css",
+    "static/js/main.90da64cd.js"
   ]
 }
