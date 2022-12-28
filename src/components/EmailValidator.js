@@ -49,6 +49,11 @@ export default function EmailValidator(props) {
 
     return (
         <div className={`EmailValidator grid center-grid-item bg-${props.theme}`}>
+            <div className="grid-item center-grid-item">
+                <figure>
+                    <img src={email_validation} alt="" />
+                </figure>
+            </div>
             <div className="grid-item">
                 <h1 className={`text-${props.theme === 'light' ? 'dark' : 'light'}`}>Email Validation Tool <span>Try it yourself</span></h1>
                 <form>
@@ -94,13 +99,6 @@ export default function EmailValidator(props) {
                     </table>
                 </div>
             </div>
-
-            <div className="grid-item center-grid-item">
-                <figure>
-                    <img src={email_validation} alt="" />
-                </figure>
-            </div>
-
         </div>
     )
 }

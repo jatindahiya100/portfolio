@@ -1,101 +1,101 @@
-.EmailValidator form {
-    width: max-content;
-    padding: 0.25em 0.5em;
-    border: 4px solid rgb(95, 95, 95);
-    border-radius: 5em;
-    display: inline-flex;
-    align-items: center;
-}
+ form {
+     width: max-content;
+     padding: 0.25em 0.5em;
+     border: 4px solid rgb(95, 95, 95);
+     border-radius: 5em;
+     display: inline-flex;
+     align-items: center;
+ }
 
-.EmailValidator input[type="email"] {
-    border: none;
-    outline: none;
-    outline: none;
-    border: none;
-    padding: 1em 1.4em;
-    background-color: transparent;
-    border-radius: 50px;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4em;
-    font-weight: 500;
-    font-size: clamp(0.8rem, 1vw, 2rem);
-    letter-spacing: 1px;
-    cursor: pointer;
-}
+ input[type="email"], input[type="text"] {
+     border: none;
+     outline: none;
+     outline: none;
+     border: none;
+     padding: 1em 1.4em;
+     background-color: transparent;
+     border-radius: 50px;
+     display: inline-flex;
+     align-items: center;
+     gap: 0.4em;
+     font-weight: 500;
+     font-size: clamp(0.8rem, 1vw, 2rem);
+     letter-spacing: 1px;
+     cursor: pointer;
+ }
 
-.EmailValidator .response {
-    width: 100%;
-    padding: 2em;
-    border-radius: 1em;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
+ .response {
+     width: 100%;
+     padding: 2em;
+     border-radius: 1em;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
 
-.EmailValidator .response table {
-    width: 100%;
-}
+ .response table {
+     width: 100%;
+ }
 
-.EmailValidator .response table tbody {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-}
+ .response table tbody {
+     display: flex;
+     flex-direction: column;
+     gap: 1em;
+ }
 
-.EmailValidator .response table tr {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+ .response table tr {
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
 
-.EmailValidator .response table tr td {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5em;
-    font-size: inherit;
-}
+ .response table tr td {
+     display: inline-flex;
+     align-items: center;
+     gap: 0.5em;
+     font-size: inherit;
+ }
 
-.EmailValidator .response table tr td:nth-child(1) {
-    text-transform: capitalize;
-}
+ .response table tr td:nth-child(1) {
+     text-transform: capitalize;
+ }
 
-.success {
-    color: green;
-}
+ .success {
+     color: green;
+ }
 
-.error {
-    color: brown;
-}
+ .error {
+     color: brown;
+ }
 
-@media screen and (max-width:600px) {
-    .EmailValidator form {
-        width: 100%;
-        flex-direction: column;
-        border: none;
-        gap: 2em;
-    }
+ @media screen and (max-width:600px) {
+     form {
+         width: 100%;
+         flex-direction: column;
+         border: none;
+         gap: 2em;
+     }
 
-    .EmailValidator input[type="email"] {
-        width: 100%;
-        background-color: rgba(128, 128, 128, 0.274);
-    }
+     input[type="email"] {
+         width: 100%;
+         background-color: rgba(128, 128, 128, 0.274);
+     }
 
-    .EmailValidator .response {
-        box-shadow: none;
-        padding: unset;
-    }
+     .response {
+         box-shadow: none;
+         padding: unset;
+     }
 
-    .EmailValidator .response table tbody {
-        display: grid;
+     .response table tbody {
+         display: grid;
 
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    }
+         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+     }
 
-    .EmailValidator .response table tr {
-        padding: 1em;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        flex-direction: column;
-        gap: 1em;
-        border-radius: 1em;
-    }
-}
+     .response table tr {
+         padding: 1em;
+         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+         flex-direction: column;
+         gap: 1em;
+         border-radius: 1em;
+     }
+ }
