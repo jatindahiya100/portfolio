@@ -7,7 +7,8 @@
      align-items: center;
  }
 
- input[type="email"], input[type="text"] {
+ input[type="email"],
+ input[type="text"] {
      border: none;
      outline: none;
      outline: none;
@@ -75,7 +76,8 @@
          gap: 2em;
      }
 
-     input[type="email"] {
+     input[type="email"],
+     input[type="text"] {
          width: 100%;
          background-color: rgba(128, 128, 128, 0.274);
      }
