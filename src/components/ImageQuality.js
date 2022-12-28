@@ -70,7 +70,7 @@ export default function ImageQuality(props) {
                             </tr>
                             <tr>
                                 <td>Description</td>
-                                <td>
+                                <td className={`${parseInt(defaultResponse["score"]) > 30 ? 'success' : 'error'}`}>
                                     {defaultResponse["description"]}
                                 </td>
                             </tr>
