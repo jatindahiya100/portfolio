@@ -60,6 +60,11 @@
      text-transform: capitalize;
  }
 
+ ul  {
+     font-size: small;
+     line-height: 1.8em;
+ }
+
  .success {
      color: green;
      font-weight: 500;

@@ -46,15 +46,15 @@ export default function ImageQuality(props) {
                 </figure>
             </div>
             <div className="grid-item">
-                <h1 className={`text-${props.theme === 'light' ? 'dark' : 'light'}`}>Image Quality Check <span></span></h1>
-                <p className={`text-xtra-${props.theme === 'light' ? 'light' : 'dark'}`}> You can use this service for: <br />
-                    <ul>
-                        <li>Determining the best image of the product to display on the front page</li>
-                        <li>Sort the products/listings based on the image quality score on your e-commerce site</li>
-                        <li>Show only the high-quality images for adverts</li>
-                        <li>Only permitting high-quality images for your listing/product</li>
-                    </ul>
-                </p>
+                <h1 className={`text-${props.theme === 'light' ? 'dark' : 'light'}`}>Image Quality Check <span>Try It Now</span></h1>
+                <ul className={`text-xtra-${props.theme === 'light' ? 'light' : 'dark'}`}>
+                You can use this service for: <br />
+                    <li>Determining the best image of the product to display on the front page</li>
+                    <li>Sort the products/listings based on the image quality score on your e-commerce site</li>
+                    <li>Show only the high-quality images for adverts</li>
+                    <li>Only permitting high-quality images for your listing/product</li>
+                </ul>
+
                 <form>
                     <input onChange={handleChange} className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} type="text" placeholder={inputUrl} />
                     <input className='primary-btn' type="button" value="Check Quality" onClick={validateEmail} />
