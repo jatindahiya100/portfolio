@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio-react.js/static/css/main.4a8a8fe8.css",
-    "main.js": "/portfolio-react.js/static/js/main.90da64cd.js",
+    "main.css": "/portfolio-react.js/static/css/main.f99e7cb4.css",
+    "main.js": "/portfolio-react.js/static/js/main.a0b1f39c.js",
     "static/media/MacBook-Pro-Rainfire.png": "/portfolio-react.js/static/media/MacBook-Pro-Rainfire.2d36dcbbe3062afd7ca3.png",
+    "static/media/design4.png": "/portfolio-react.js/static/media/design4.47cf8d01d797af34055a.png",
+    "static/media/design3.png": "/portfolio-react.js/static/media/design3.71d1d4486c4c64d78bea.png",
+    "static/media/design2.png": "/portfolio-react.js/static/media/design2.00901ee000fcc88f6dca.png",
     "static/media/JP-Lewis-Group.png": "/portfolio-react.js/static/media/JP-Lewis-Group.de8a0ce5022c9724bd10.png",
     "static/media/customDashboardUI.png": "/portfolio-react.js/static/media/customDashboardUI.2198ec8cb5f761d49669.png",
+    "static/media/design1.png": "/portfolio-react.js/static/media/design1.31d5e0910976f586f4bb.png",
     "static/media/Alternative-Healthline.png": "/portfolio-react.js/static/media/Alternative-Healthline.96ba1d06eee50c2d3a39.png",
     "static/media/PizzaBook-Home.png": "/portfolio-react.js/static/media/PizzaBook-Home.8651c6aac744d3966508.png",
     "static/media/Appointmentwale.png": "/portfolio-react.js/static/media/Appointmentwale.34b7e76db91d79c806e3.png",
@@ -19,11 +23,11 @@
     "static/media/resume.pdf": "/portfolio-react.js/static/media/resume.9f52a76a913da4b28f4e.pdf",
     "static/media/2.svg": "/portfolio-react.js/static/media/2.fad963929cb2caff87d0f8fa6369db32.svg",
     "index.html": "/portfolio-react.js/index.html",
-    "main.4a8a8fe8.css.map": "/portfolio-react.js/static/css/main.4a8a8fe8.css.map",
-    "main.90da64cd.js.map": "/portfolio-react.js/static/js/main.90da64cd.js.map"
+    "main.f99e7cb4.css.map": "/portfolio-react.js/static/css/main.f99e7cb4.css.map",
+    "main.a0b1f39c.js.map": "/portfolio-react.js/static/js/main.a0b1f39c.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a8a8fe8.css",
-    "static/js/main.90da64cd.js"
+    "static/css/main.f99e7cb4.css",
+    "static/js/main.a0b1f39c.js"
   ]
 }
