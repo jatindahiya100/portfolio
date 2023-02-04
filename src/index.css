@@ -193,7 +193,7 @@ figure img {
     max-height: 600px;
     object-fit: contain;
     cursor: pointer;
-    border-radius: 40px;
+    border-radius: 1em;
 }
 
 figcaption {

@@ -7,6 +7,7 @@ import Tools from './pages/Tools';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import { HashRouter as Router, Routes, Route, } from "react-router-dom";
+import Designs from './components/Designs';
 
 function App() {
   if (localStorage.getItem('defaultTheme') === null) {
@@ -41,6 +42,7 @@ function App() {
         <Route path='/work' element={<Work theme={defaultTheme} />} />
         <Route path='/tools' element={<Tools theme={defaultTheme} />} />
         <Route path='/hire' element={<Hire theme={defaultTheme} />} />
+        <Route path='/designs' element={<Designs theme={defaultTheme} />} />
       </Routes>
       <Footer theme={defaultTheme} />
     </Router>
