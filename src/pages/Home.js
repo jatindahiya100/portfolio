@@ -44,7 +44,7 @@ export default function Home(props) {
         },
         {
             theme: props.theme,
-            h1: '5 Star freelancer with 100% Job Success Score',
+            h1: 'Successfully Delivered Over 8+ Projects Worth ₹ 87,414 In Last Month',
             span: 'On Upwok',
             description: 'Custom web design can be the difference between a mediocre website and an awesome one. If you want your website to stand out from the competition, you need a stand-out design company.',
             skills: [],
