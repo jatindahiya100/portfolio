@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-react.js/static/css/main.f99e7cb4.css",
+    "main.css": "/portfolio-react.js/static/css/main.a5fb801e.css",
     "main.js": "/portfolio-react.js/static/js/main.a0b1f39c.js",
     "static/media/MacBook-Pro-Rainfire.png": "/portfolio-react.js/static/media/MacBook-Pro-Rainfire.2d36dcbbe3062afd7ca3.png",
     "static/media/design4.png": "/portfolio-react.js/static/media/design4.47cf8d01d797af34055a.png",
@@ -23,11 +23,11 @@
     "static/media/resume.pdf": "/portfolio-react.js/static/media/resume.9f52a76a913da4b28f4e.pdf",
     "static/media/2.svg": "/portfolio-react.js/static/media/2.fad963929cb2caff87d0f8fa6369db32.svg",
     "index.html": "/portfolio-react.js/index.html",
-    "main.f99e7cb4.css.map": "/portfolio-react.js/static/css/main.f99e7cb4.css.map",
+    "main.a5fb801e.css.map": "/portfolio-react.js/static/css/main.a5fb801e.css.map",
     "main.a0b1f39c.js.map": "/portfolio-react.js/static/js/main.a0b1f39c.js.map"
   },
   "entrypoints": [
-    "static/css/main.f99e7cb4.css",
+    "static/css/main.a5fb801e.css",
     "static/js/main.a0b1f39c.js"
   ]
 }
