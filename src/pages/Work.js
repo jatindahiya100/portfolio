@@ -14,18 +14,7 @@ export default function Work(props) {
   const dataToBePopulated = [
     {
       theme: props.theme,
-      h1: '1). compressor.io',
-      span: 'Compress Images',
-      description: 'Sidebird.io was to create a unique Twitter tool that enables passive growth through smart retweet automations. The emphasis was on providing non-spammy retweets to help users grow their Twitter presence even when they aare busy or inactive.',
-      skills: ["React", "Next.js", "Node.js", "Payment Gateway Integration"],
-      btnText: 'Visit Site',
-      btnIcon: 'link',
-      linkTo: 'https://compressor.io/',
-      imgSrc: Compressor
-    },
-    {
-      theme: props.theme,
-      h1: '2). SideBird',
+      h1: '1). SideBird',
       span: 'The Future Twitter',
       description: 'Sidebird.io is a unique Twitter tool that enables passive growth through smart retweet automations. The emphasis was on providing non-spammy retweets to help users grow their Twitter presence even when they are busy or inactive.',
       skills: ["React", "Next.js", "Node.js", "Tailwind CSS"],
@@ -36,7 +25,7 @@ export default function Work(props) {
     },
     {
       theme: props.theme,
-      h1: '3). Clearbit',
+      h1: '2). Clearbit',
       span: '',
       description: 'Clearbit is a leading provider of B2B data intelligence, empowering go-to-market teams with robust company, contact, and IP information. Their comprehensive dataset, gathered from diverse sources, helps businesses enhance their targeting, personalization, and outreach strategies. With APIs and integrations, Clearbit enables seamless integration of their data into existing platforms, offering go-to-market teams a valuable resource for effective decision-making and customer engagement.',
       skills: ["React", "Next.js", "Node.js", "Tailwind CSS"],
@@ -47,8 +36,19 @@ export default function Work(props) {
     },
     {
       theme: props.theme,
+      h1: '3). compressor.io',
+      span: 'Compress Images',
+      description: 'Sidebird.io was to create a unique Twitter tool that enables passive growth through smart retweet automations. The emphasis was on providing non-spammy retweets to help users grow their Twitter presence even when they aare busy or inactive.',
+      skills: ["React", "Next.js", "Node.js", "Payment Gateway Integration"],
+      btnText: 'Visit Site',
+      btnIcon: 'link',
+      linkTo: 'https://compressor.io/',
+      imgSrc: Compressor
+    },
+    {
+      theme: props.theme,
       h1: '4). Studio Proper',
-      span: 'Shopify Store',
+      span: 'E-Commerce',
       description: 'Studio Proper is a leading online retailer offering innovative accessories for mobile devices. They specialize in stylish and functional products like protective cases, mounts, stands, and more, designed to enhance the user experience and keep devices secure.',
       skills: ["Shopify", "Shopify Chat", "MailChimp", "Payment Gateway Integration", "Paypal", "American Express", "Apple Pay", "Google Pay", "Shop Pay", "Visa"],
       btnText: 'Visit Site',
@@ -59,7 +59,7 @@ export default function Work(props) {
     {
       theme: props.theme,
       h1: '5). Luxy Hair',
-      span: 'E-Commerce',
+      span: 'Shopify Store',
       description: 'Luxy Hair is a leading online retailer known for its high-quality hair extensions. They offer a wide range of extensions made from 100% Remy human hair, ensuring a natural look and exceptional softness. With a user-friendly website, informative resources, and excellent customer service, Luxy Hair is a go-to destination for those looking to enhance their hairstyles and transform their look.',
       skills: ["Shopify", "Shopify Chat", "MailChimp", "Payment Gateway Integration", "Paypal", "American Express", "Apple Pay", "Google Pay", "Shop Pay", "Visa"],
       btnText: 'Visit Site',
