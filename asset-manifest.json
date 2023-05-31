@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f0c1730d.css",
-    "main.js": "/portfolio/static/js/main.bb827cfe.js",
+    "main.js": "/portfolio/static/js/main.fdf4788f.js",
     "static/media/Clearbit.png": "/portfolio/static/media/Clearbit.00352c9caf578fbdedbc.png",
     "static/media/JP-Lewis-Group.png": "/portfolio/static/media/JP-Lewis-Group.de8a0ce5022c9724bd10.png",
     "static/media/customDashboardUI.png": "/portfolio/static/media/customDashboardUI.2198ec8cb5f761d49669.png",
@@ -18,10 +18,10 @@
     "static/media/2.svg": "/portfolio/static/media/2.fad963929cb2caff87d0f8fa6369db32.svg",
     "index.html": "/portfolio/index.html",
     "main.f0c1730d.css.map": "/portfolio/static/css/main.f0c1730d.css.map",
-    "main.bb827cfe.js.map": "/portfolio/static/js/main.bb827cfe.js.map"
+    "main.fdf4788f.js.map": "/portfolio/static/js/main.fdf4788f.js.map"
   },
   "entrypoints": [
     "static/css/main.f0c1730d.css",
-    "static/js/main.bb827cfe.js"
+    "static/js/main.fdf4788f.js"
   ]
 }
