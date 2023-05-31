@@ -1,15 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f0c1730d.css",
-    "main.js": "/portfolio/static/js/main.1880db82.js",
-    "static/media/MacBook-Pro-Rainfire.png": "/portfolio/static/media/MacBook-Pro-Rainfire.2d36dcbbe3062afd7ca3.png",
+    "main.js": "/portfolio/static/js/main.bb827cfe.js",
+    "static/media/Clearbit.png": "/portfolio/static/media/Clearbit.00352c9caf578fbdedbc.png",
     "static/media/JP-Lewis-Group.png": "/portfolio/static/media/JP-Lewis-Group.de8a0ce5022c9724bd10.png",
     "static/media/customDashboardUI.png": "/portfolio/static/media/customDashboardUI.2198ec8cb5f761d49669.png",
-    "static/media/Alternative-Healthline.png": "/portfolio/static/media/Alternative-Healthline.96ba1d06eee50c2d3a39.png",
-    "static/media/PizzaBook-Home.png": "/portfolio/static/media/PizzaBook-Home.8651c6aac744d3966508.png",
-    "static/media/Appointmentwale.png": "/portfolio/static/media/Appointmentwale.34b7e76db91d79c806e3.png",
+    "static/media/Sidebird-Twitter-fanbase-builder.png": "/portfolio/static/media/Sidebird-Twitter-fanbase-builder.24794fb8ede4e3fe0e40.png",
+    "static/media/Compressor-io.png": "/portfolio/static/media/Compressor-io.01fec784678adcdd699c.png",
     "static/media/imagequality.png": "/portfolio/static/media/imagequality.94b7c640e20d6bceb055.png",
-    "static/media/Backlinks-Tracker.png": "/portfolio/static/media/Backlinks-Tracker.ca4cde93c14d254df138.png",
     "static/media/email_validation_api.png": "/portfolio/static/media/email_validation_api.037f2c0ee8c2cbdf8b66.png",
     "static/media/jatindahiya.png": "/portfolio/static/media/jatindahiya.3a904a38764a7870f116.png",
     "static/media/3.svg": "/portfolio/static/media/3.37c4ccbd2adb73db6e0860488800181e.svg",
@@ -20,10 +18,10 @@
     "static/media/2.svg": "/portfolio/static/media/2.fad963929cb2caff87d0f8fa6369db32.svg",
     "index.html": "/portfolio/index.html",
     "main.f0c1730d.css.map": "/portfolio/static/css/main.f0c1730d.css.map",
-    "main.1880db82.js.map": "/portfolio/static/js/main.1880db82.js.map"
+    "main.bb827cfe.js.map": "/portfolio/static/js/main.bb827cfe.js.map"
   },
   "entrypoints": [
     "static/css/main.f0c1730d.css",
-    "static/js/main.1880db82.js"
+    "static/js/main.bb827cfe.js"
   ]
 }
