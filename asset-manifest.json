@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f0c1730d.css",
-    "main.js": "/portfolio/static/js/main.018c5dfe.js",
+    "main.js": "/portfolio/static/js/main.c5588416.js",
     "static/media/Luxy-Hair.png": "/portfolio/static/media/Luxy-Hair.f898d1e628e2274d627f.png",
     "static/media/Proper.png": "/portfolio/static/media/Proper.7e02eb508d590ece1e00.png",
     "static/media/Clearbit.png": "/portfolio/static/media/Clearbit.00352c9caf578fbdedbc.png",
@@ -20,10 +20,10 @@
     "static/media/2.svg": "/portfolio/static/media/2.fad963929cb2caff87d0f8fa6369db32.svg",
     "index.html": "/portfolio/index.html",
     "main.f0c1730d.css.map": "/portfolio/static/css/main.f0c1730d.css.map",
-    "main.018c5dfe.js.map": "/portfolio/static/js/main.018c5dfe.js.map"
+    "main.c5588416.js.map": "/portfolio/static/js/main.c5588416.js.map"
   },
   "entrypoints": [
     "static/css/main.f0c1730d.css",
-    "static/js/main.018c5dfe.js"
+    "static/js/main.c5588416.js"
   ]
 }
