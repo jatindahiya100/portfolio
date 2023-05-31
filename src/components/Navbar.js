@@ -39,7 +39,6 @@ export default function Navbar(props) {
       <ul className="nav-menu">
         <li><NavLink onClick={handleClick} className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/">Home <ion-icon name="home"></ion-icon></NavLink></li>
         <li><NavLink onClick={handleClick} className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/work">Work <ion-icon name="logo-react"></ion-icon></NavLink></li>
-        <li><NavLink onClick={handleClick} className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/designs">View Designs <ion-icon name="color-palette"></ion-icon></NavLink></li>
         <li><NavLink onClick={handleClick} className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/tools">Tools <ion-icon name="build"></ion-icon></NavLink></li>
         <li><NavLink onClick={handleClick} className={`text-${props.theme === 'light' ? 'dark' : 'light'}`} to="/hire">Hire Me <ion-icon name="ribbon"></ion-icon></NavLink></li>
       </ul>
