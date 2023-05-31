@@ -44,7 +44,7 @@ export default function Home(props) {
         },
         {
             theme: props.theme,
-            h1: 'Successfully Delivered Over 10+ Projects Worth $2.5k+',
+            h1: 'Successfully Delivered Over 10+ Projects',
             span: 'On Upwok',
             description: 'I have a proven track record of successfully delivering more than 10 projects, amounting to a total value of $2.5k+. With a focus on quality and meeting client expectations, I consistently achieve project milestones and deliver tangible results within budget.',
             skills: [],
