@@ -44,9 +44,9 @@ export default function Home(props) {
         },
         {
             theme: props.theme,
-            h1: 'Successfully Delivered Over 8+ Projects Worth ₹ 87,414 In Last Month',
+            h1: 'Successfully Delivered Over 10+ Projects Worth $2.5k+',
             span: 'On Upwok',
-            description: 'Custom web design can be the difference between a mediocre website and an awesome one. If you want your website to stand out from the competition, you need a stand-out design company.',
+            description: 'I have a proven track record of successfully delivering more than 10 projects, amounting to a total value of $2.5k+. With a focus on quality and meeting client expectations, I consistently achieve project milestones and deliver tangible results within budget.',
             skills: [],
             btnText: 'Upwork Profile',
             btnIcon: 'star',

@@ -1,12 +1,10 @@
 import React from 'react'
 import Template from '../components/Template_1';
-import Rainfire from '../img/MacBook-Pro-Rainfire.png'
-import Backlinks from '../img/Backlinks-Tracker.png'
+import Compressor from '../img/Compressor-io.png'
+import SideBird from '../img/Sidebird-Twitter-fanbase-builder.png'
+import ClearBit from '../img/Clearbit.png'
 import JPLewis from '../img/JP-Lewis-Group.png'
-import pizzaBook from '../img/PizzaBook-Home.png'
 import customDashboardUI from '../img/customDashboardUI.png'
-import Appointmentwale from '../img/Appointmentwale.png'
-import Alternativehealthline from '../img/Alternative-Healthline.png'
 
 export default function Work(props) {
 
@@ -14,19 +12,40 @@ export default function Work(props) {
   const dataToBePopulated = [
     {
       theme: props.theme,
-      h1: '1). Rainfire.in',
-      span: 'Online Store',
-      description: 'Project Summary: Rainfire.in is an online selling store designed & developed by me for my non-Upwork client. This a full stack project built from scratch with HTML, CSS, Javascript, jQuery, and PHP with AJAX and MYSQL.',
-      skills: ["HTML", "CSS", "Javascript", "jQuery", "PHP With Ajax", "MYSQL", "Hosting"],
+      h1: '1). compressor.io',
+      span: 'Compress Images',
+      description: 'Sidebird.io was to create a unique Twitter tool that enables passive growth through smart retweet automations. The emphasis was on providing non-spammy retweets to help users grow their Twitter presence even when they aare busy or inactive.',
+      skills: ["React", "Next.js", "Node.js", "Payment Gateway Integration"],
       btnText: 'Visit Site',
       btnIcon: 'link',
-      linkTo: 'http://rainfire.in/',
-      imgSrc: Rainfire,
-      figcaption: "MacBook Pro"
+      linkTo: 'https://compressor.io/',
+      imgSrc: Compressor
     },
     {
       theme: props.theme,
-      h1: '2). JP LEWIS GROUP, LLC',
+      h1: '2). SideBird',
+      span: 'The Future Twitter',
+      description: 'Sidebird.io is a unique Twitter tool that enables passive growth through smart retweet automations. The emphasis was on providing non-spammy retweets to help users grow their Twitter presence even when they are busy or inactive.',
+      skills: ["React", "Next.js", "Node.js", "Tailwind CSS"],
+      btnText: 'Visit Site',
+      btnIcon: 'link',
+      linkTo: 'https://www.sidebird.io/',
+      imgSrc: SideBird
+    },
+    {
+      theme: props.theme,
+      h1: '3). Clearbit',
+      span: '',
+      description: 'Clearbit is a leading provider of B2B data intelligence, empowering go-to-market teams with robust company, contact, and IP information. Their comprehensive dataset, gathered from diverse sources, helps businesses enhance their targeting, personalization, and outreach strategies. With APIs and integrations, Clearbit enables seamless integration of their data into existing platforms, offering go-to-market teams a valuable resource for effective decision-making and customer engagement.',
+      skills: ["React", "Next.js", "Node.js", "Tailwind CSS"],
+      btnText: 'Visit Site',
+      btnIcon: 'link',
+      linkTo: 'https://clearbit.com/',
+      imgSrc: ClearBit
+    },
+    {
+      theme: props.theme,
+      h1: '4). JP LEWIS GROUP, LLC',
       span: 'Landing Page',
       description: 'Designed, Developed, and hosted a landing page for an international cleint:  "James Lewis Group LLC". The deliverables were a simple and elegant landing page built with pure HTML, CSS, Javascript.',
       skills: ["HTML", "CSS", "Javascript", "Responsive Web Design", "GoDaddy Hosting"],
@@ -34,28 +53,6 @@ export default function Work(props) {
       btnIcon: 'link',
       linkTo: 'https://jplewisgroup.com/',
       imgSrc: JPLewis
-    },
-    {
-      theme: props.theme,
-      h1: '3). Backlinks Tracker',
-      span: 'Tool',
-      description: 'Backlinks Tracker is Free SEO Tool that can be used by Digital marketers and bloggers. This tool helps you find out how many backlinks your domain have. This tool provides you with different metrics like total backlinks, DoFollow links, NoFollow links, total domains reffering to your domain, total number of pages that points to your domain.',
-      skills: ["HTML", "CSS", "Javascript", "API Integration"],
-      btnText: 'Visit Site',
-      btnIcon: 'link',
-      linkTo: 'https://jatindahiya100.github.io/backlinks-tracker/',
-      imgSrc: Backlinks
-    },
-    {
-      theme: props.theme,
-      h1: '4). PizzaBook',
-      span: '-A Food Order Web App',
-      description: 'A Food ordering web app with add to cart and Custom Admin Panel for managing and tracking of orders',
-      skills: ["HTML", "CSS", "Javascript", "Add to Cart"],
-      btnText: 'Source Code',
-      btnIcon: 'logo-github',
-      linkTo: 'https://github.com/jatindahiya100/pizzaBook',
-      imgSrc: pizzaBook
     },
     {
       theme: props.theme,
@@ -67,28 +64,6 @@ export default function Work(props) {
       btnIcon: 'logo-github',
       linkTo: 'https://github.com/jatindahiya100/faizy',
       imgSrc: customDashboardUI
-    },
-    {
-      theme: props.theme,
-      h1: '6). E-Appointment',
-      span: 'Booking System',
-      description: 'A web portal for salons where their visitors can have schedule appointments and track its live status so that they can visit the respective salon on time',
-      skills: ["HTML", "CSS", "Javascript", "jQuery", "PHP", "MYSQL"],
-      btnText: 'Source Code',
-      btnIcon: 'logo-github',
-      linkTo: 'https://github.com/jatindahiya100/appointment',
-      imgSrc: Appointmentwale
-    },
-    {
-      theme: props.theme,
-      h1: '7). Wordpress',
-      span: 'Health Blog',
-      description: 'www.alternativehealthline.com is a wordpress health blog designed, developed, hosted and maintained by me',
-      skills: ["Wordpress"],
-      btnText: 'Visit Site',
-      btnIcon: 'link',
-      linkTo: 'https://alternativehealthline.com/',
-      imgSrc: Alternativehealthline
     }
   ]
 
@@ -99,8 +74,6 @@ export default function Work(props) {
       <Template myObj={dataToBePopulated[2]} />
       <Template myObj={dataToBePopulated[3]} />
       <Template myObj={dataToBePopulated[4]} />
-      <Template myObj={dataToBePopulated[5]} />
-      <Template myObj={dataToBePopulated[6]} />
     </>
   )
 }
