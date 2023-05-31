@@ -3,6 +3,8 @@ import Template from '../components/Template_1';
 import Compressor from '../img/Compressor-io.png'
 import SideBird from '../img/Sidebird-Twitter-fanbase-builder.png'
 import ClearBit from '../img/Clearbit.png'
+import Proper from '../img/Proper.png'
+import LuxyHair from '../img/Luxy-Hair.png'
 import JPLewis from '../img/JP-Lewis-Group.png'
 import customDashboardUI from '../img/customDashboardUI.png'
 
@@ -45,7 +47,29 @@ export default function Work(props) {
     },
     {
       theme: props.theme,
-      h1: '4). JP LEWIS GROUP, LLC',
+      h1: '4). Studio Proper',
+      span: 'Shopify Store',
+      description: 'Studio Proper is a leading online retailer offering innovative accessories for mobile devices. They specialize in stylish and functional products like protective cases, mounts, stands, and more, designed to enhance the user experience and keep devices secure.',
+      skills: ["Shopify", "Shopify Chat", "MailChimp", "Payment Gateway Integration", "Paypal", "American Express", "Apple Pay", "Google Pay", "Shop Pay", "Visa"],
+      btnText: 'Visit Site',
+      btnIcon: 'link',
+      linkTo: 'https://www.studioproper.com/',
+      imgSrc: Proper
+    },
+    {
+      theme: props.theme,
+      h1: '5). Luxy Hair',
+      span: 'E-Commerce',
+      description: 'Luxy Hair is a leading online retailer known for its high-quality hair extensions. They offer a wide range of extensions made from 100% Remy human hair, ensuring a natural look and exceptional softness. With a user-friendly website, informative resources, and excellent customer service, Luxy Hair is a go-to destination for those looking to enhance their hairstyles and transform their look.',
+      skills: ["Shopify", "Shopify Chat", "MailChimp", "Payment Gateway Integration", "Paypal", "American Express", "Apple Pay", "Google Pay", "Shop Pay", "Visa"],
+      btnText: 'Visit Site',
+      btnIcon: 'link',
+      linkTo: 'https://www.luxyhair.com/',
+      imgSrc: LuxyHair
+    },
+    {
+      theme: props.theme,
+      h1: '6). JP LEWIS GROUP, LLC',
       span: 'Landing Page',
       description: 'Designed, Developed, and hosted a landing page for an international cleint:  "James Lewis Group LLC". The deliverables were a simple and elegant landing page built with pure HTML, CSS, Javascript.',
       skills: ["HTML", "CSS", "Javascript", "Responsive Web Design", "GoDaddy Hosting"],
@@ -56,7 +80,7 @@ export default function Work(props) {
     },
     {
       theme: props.theme,
-      h1: '5). Custom Dashboard UI',
+      h1: '7). Custom Dashboard UI',
       span: 'Upwork',
       description: 'Client Name: Faizy Jamal. Location: United States (Richmond). Project Summary: Designed and Developed a user-friendly, responsive and eye astounding custom dashboard for his website',
       skills: ["HTML", "CSS", "Javascript", "UI / UX Design", "Responsive Web Design"],
@@ -74,6 +98,8 @@ export default function Work(props) {
       <Template myObj={dataToBePopulated[2]} />
       <Template myObj={dataToBePopulated[3]} />
       <Template myObj={dataToBePopulated[4]} />
+      <Template myObj={dataToBePopulated[5]} />
+      <Template myObj={dataToBePopulated[6]} />
     </>
   )
 }
